@@ -1,8 +1,8 @@
 ## Projects
 
 
-- DB-BERT: the database tuning tool that "reads" the manual
-- [SkinnerDB](https://cornelldbgroup.github.io/skinnerdb/): adaptive query processing with reinforcement learning
+- DB-BERT: the database tuning tool that "reads" the manual.
+- [SkinnerDB](https://cornelldbgroup.github.io/skinnerdb/): adaptive query processing with reinforcement learning.
 
 ## Publications
 
