@@ -9,13 +9,13 @@
 ### 2021
 
 - **VLDB 2022** UDO: universal database optimization using reinforcement learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.
+- - **TODS 2021** SkinnerDB: regret-bounded query evaluation via reinforcement learning. _Immanuel Trummer, Junxiong Wang, Ziyun Wei et al._ **Best of SIGMOD**
 - **IEEE Data Engineering Bulletin** WebChecker: towards an infrastructure for efficient misinformation detection at Web scale. _Immanuel Trummer_.
 - **VLDB 2021** The case for NLP-enhanced database tuning: towards tuning tools that read the manual. _Immanuel Trummer_.
 - **VLDB 2021** Robust voice querying with MUVE: optimally visualizing results of phonetically similar queries. _Ziyun Wei, Immanuel Trummer, Connor Anderson_.
 - **SIGMOD 2021** Demonstrating UDO: a unified approach for optimizing transaction code, physical design, and system parameters via reinforcement learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.
 - **SIGMOD 2021** Demonstrating robust voice querying with MUVE: optimally visualizing results of phonetically similar queries. _Ziyun Wei, Immanuel Trummer, Connor Anderson_.
 - **ICDE 2021** Optimally summarizing data by small fact sets for concise answers to voice queries. _Immanuel Trummer, Connor Anderson_.
-- **TODS 2021** SkinnerDB: regret-bounded query evaluation via reinforcement learning. _Immanuel Trummer, Junxiong Wang, Ziyun Wei et al._ **Best of SIGMOD**
 
 ### 2020
 
@@ -27,15 +27,25 @@
 - **VLDB 2020** Mining an “Anti-Knowledge Base” from Wikipedia updates with applications to fact checking and beyond. _Georgios Karagiannis, Immanuel Trummer, Saehan Jo, Shubham Khandelwal, Xuezhi Wang, Cong Yu_.
 - **CIDR 2020** BitGourmet: deterministic approximation via optimized bit selections. _Saehan Jo, Immanuel Trummer_.
 
+### 2019
+
+- **VLDB 2019** AggChecker: a fact-checking system for text summaries of relational data sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liy Niyati Mehta_.
+- **SIGMOD 2019** SkinnerDB: Regret-bounded query evaluation via reinforcement learning. _Immanuel Trummer, Junxiong Wang, Deepak Maram, Samuel Moseley, Saehan Jo, Joseph Antonakakis_.
+- **SIGMOD 2019** A holistic approach for query evaluation and result vocalization in voice-based OLAP. _Immanuel Trummer, Yicheng Wang, Saketh Mahankali_.
+- **SIGMOD 2019** Exact cardinality query optimization with bounded execution cost. _Immanuel Trummer_.
+- **SIGMOD 2019** Verifying text summaries of relational data sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liu, Niyati Mehta_.
+- **CIDR 2019** Data Vocalization with CiceroDB. _Immanuel Trummer_.
+
 ## Students
 
-- Junxiong Wang.
-- Saehan Jo.
-- Victor Giannakouris.
-- Ziyun Wei.
+- Junxiong Wang
+- Saehan Jo
+- Victor Giannakouris
+- Ziyun Wei
 
 ## Teaching
 
-- CS 4320.
-- CS 4321.
-- CS 7390.
+- CS 4320: Introduction to database systems.
+- CS 4321: Practicum in database systems.
+- CS 6320: Advanced database systems.
+- CS 7390: Seminar in database systems.
