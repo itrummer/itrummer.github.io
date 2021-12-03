@@ -6,6 +6,11 @@
 
 ## Publications
 
+### 2022
+
+- **AAAI 2022** Procrastinated tree search: black-box optimization with delayed, noisy, and multi-fidelity feedback. _Junxiong Wang, Debabrota Basu, Immanuel Trummer_.
+- **CIDR 2022** Towards NLP-enhanced data profiling tools. (Abstract) _Immanuel Trummer_.
+
 ### 2021
 
 - **TODS 2021 "Best of SIGMOD" Edition** SkinnerDB: regret-bounded query evaluation via reinforcement learning. _Immanuel Trummer, Junxiong Wang, Ziyun Wei et al._ 
@@ -13,6 +18,7 @@
 - **IEEE Data Engineering Bulletin** WebChecker: towards an infrastructure for efficient misinformation detection at Web scale. _Immanuel Trummer_.
 - **VLDB 2021** The case for NLP-enhanced database tuning: towards tuning tools that read the manual. _Immanuel Trummer_.
 - **VLDB 2021** Robust voice querying with MUVE: optimally visualizing results of phonetically similar queries. _Ziyun Wei, Immanuel Trummer, Connor Anderson_.
+- **SIGMOD Record 2021** Database tuning using natural language processing. _Immanuel Trummer_.
 - **SIGMOD 2021** Demonstrating UDO: a unified approach for optimizing transaction code, physical design, and system parameters via reinforcement learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.
 - **SIGMOD 2021** Demonstrating robust voice querying with MUVE: optimally visualizing results of phonetically similar queries. _Ziyun Wei, Immanuel Trummer, Connor Anderson_.
 - **ICDE 2021** Optimally summarizing data by small fact sets for concise answers to voice queries. _Immanuel Trummer, Connor Anderson_.
