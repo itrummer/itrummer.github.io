@@ -2,12 +2,19 @@
 
 
 - [DB-BERT](https://itrummer.github.io/dbbert/): the database tuning tool that "reads" the manual.
+- [UDO](https://cornelldbgroup.github.io/UDO/): the "Swiss Army Knife" of database tuning tools.
 - [SkinnerDB](https://cornelldbgroup.github.io/skinnerdb/): adaptive query processing with reinforcement learning.
 
 ## Publications
 
 ### 2022
 
+- **VLDB 2022, PhD Workshop** Building learned federated query optimizers. _Victor Giannakouris, Immanuel Trummer_.
+- **VLDB 2022** CodexDB: synthesizing code for query processing from natural language instructions using GPT-3 Codex. _Immanuel Trummer_.
+- **VLDB 2022** BABOONS: black-box optimization of data summaries in natural language. _Immanuel Trummer_.
+- **VLDB 2022** From BERT to GPT-3 Codex: harnessing the potential of very large language models for data management. _Immanuel Trummer_.
+- **VLDB 2022** UDO: universal database optimization using reinforcement learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.
+- **SIGMOD 2022** Demonstrating DB-BERT: a database tuning tool that "reads the manual". _Immanuel Trummer_.
 - **AAAI 2022** Procrastinated tree search: black-box optimization with delayed, noisy, and multi-fidelity feedback. _Junxiong Wang, Debabrota Basu, Immanuel Trummer_.
 - **SIGMOD 2022** DB-BERT: a database tuning tool that "reads the manual". _Immanuel Trummer_.
 - **CIDR 2022** Towards NLP-enhanced data profiling tools. (Abstract) _Immanuel Trummer_.
@@ -15,7 +22,6 @@
 ### 2021
 
 - **TODS 2021 "Best of SIGMOD" Edition** SkinnerDB: regret-bounded query evaluation via reinforcement learning. _Immanuel Trummer, Junxiong Wang, Ziyun Wei et al._ 
-- **VLDB 2021** UDO: universal database optimization using reinforcement learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.
 - **VLDB 2021** The case for NLP-enhanced database tuning: towards tuning tools that read the manual. _Immanuel Trummer_.
 - **VLDB 2021** Robust voice querying with MUVE: optimally visualizing results of phonetically similar queries. _Ziyun Wei, Immanuel Trummer, Connor Anderson_.
 - **IEEE Data Engineering Bulletin** WebChecker: towards an infrastructure for efficient misinformation detection at Web scale. _Immanuel Trummer_.
