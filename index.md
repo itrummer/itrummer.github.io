@@ -7,6 +7,8 @@
 
 ## Publications
 
+### 2023
+
 - **VLDB 2023** SkinnerMT: parallelizing for efficiency and robustness in adaptive query processing on multicore platforms. _Ziyun Wei, Immanuel Trummer_.
 
 ### 2022
