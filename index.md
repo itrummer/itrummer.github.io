@@ -10,6 +10,8 @@
 ### 2023
 
 - **VLDB 2023** SkinnerMT: parallelizing for efficiency and robustness in adaptive query processing on multicore platforms. _Ziyun Wei, Immanuel Trummer_.
+- **SIGMOD 2023** Demonstration of ThalamusDB: answering complex SQL queries with natural language predicates on multi-modal data. _Saehan Jo_, _Immanuel Trummer_.
+- **SIGMOD 2023** Demonstrating NaturalMiner: searching large data sets for abstract patterns described in natural language. _Immanuel Trummer_.
 
 ### 2022
 
