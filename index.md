@@ -11,6 +11,9 @@
 
 ### 2023
 
+- **VLDB 2023 - Conditional Accept** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_. 
+- **VLDB 2023 - Conditional Accept** Can Large Language Models Predict Data Correlations from Column Names? _Immanuel Trummer_.
+- **VLDB 2023 - Conditional Accept** ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Join Algorithms via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Amet Kara, Dan Olteanu_.
 - **VLDB 2023** SkinnerMT: parallelizing for efficiency and robustness in adaptive query processing on multicore platforms. _Ziyun Wei, Immanuel Trummer_.
 - **VLDB 2023** Demonstrating ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Joins via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Amet Kara, Dan Olteanu_.
 - **VLDB 2023** Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4. _Immanuel Trummer_.
