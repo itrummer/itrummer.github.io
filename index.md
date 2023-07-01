@@ -20,7 +20,7 @@
 - **VLDB 2023** Demonstrating ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Joins via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Amet Kara, Dan Olteanu_.
 - **VLDB 2023** Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4. _Immanuel Trummer_.
 - **SIGMOD 2023** Demonstration of ThalamusDB: answering complex SQL queries with natural language predicates on multi-modal data. _Saehan Jo_, _Immanuel Trummer_.
-- **SIGMOD 2023** Demonstrating NaturalMiner: searching large data sets for abstract patterns described in natural language. _Immanuel Trummer_.
+- **SIGMOD 2023** ***Best Demo Runner Up*** Demonstrating NaturalMiner: searching large data sets for abstract patterns described in natural language. _Immanuel Trummer_.
 
 ### 2022
 
