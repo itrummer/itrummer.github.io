@@ -12,6 +12,7 @@
 
 ### 2023
 
+- **VLDBJ 2023 - Conditional Accept** DB-BERT: a Database Tuning Tool that "Reads" the Manual. _Immanuel Trummer_.
 - **VLDB 2023 - Conditional Accept** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
 [[Paper](https://arxiv.org/abs/2304.09433) [Code](https://github.com/HazyResearch/evaporate)]
 - **VLDB 2023 - Conditional Accept** Can Large Language Models Predict Data Correlations from Column Names? _Immanuel Trummer_.  
@@ -103,6 +104,22 @@
 [[Paper](https://doi.org/10.1145/3299869.3300074) [Talk](https://youtu.be/iSkTuu9-KjI)]
 - **CIDR 2019** Data Vocalization with CiceroDB. _Immanuel Trummer_.  
 [[Paper](https://www.cidrdb.org/cidr2019/papers/p39-trummer-cidr19.pdf) [Talk](https://youtu.be/SXIelQUEIIM)]
+
+### 2018
+
+- **PVLDB 2018** SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning. _Immanuel Trummer, Samuel Moseley, Joseph Antonakakis, Saehan Jo_.  
+[[Paper](https://doi.org/10.14778/3229863.3236263) [Code](https://github.com/cornelldbgroup/skinnerdb)]
+- **PVLDB 2018** Vocalizing Large Time Series Efficiently. _Immanuel Trummer, Mark Bryan, Ramya Narasimha_.  
+[[Paper](https://doi.org/10.14778/3236187.3236206) [Talk](https://youtu.be/XD3OTM9q1XU)]
+
+### 2017
+
+- **CACM 2017** Multi-Objective Parametric Query Optimization. _Immanuel Trummer, Christoph Koch_.  
+[[Paper](https://doi.org/10.1145/3068612)]
+- **PVLDB 2017** Data Vocalization: Optimizing Voice Output of Relational Data. _Immanuel Trummer, Jiancheng Zhu, Mark Bryan_.  
+[[Paper](https://doi.org/10.14778/3137628.3137663) [Talk](https://youtu.be/pSDNYyFq604)]
+- **SIGMOD 2017** Solving the Join Ordering Problem via Mixed Integer Linear Programming. _Immanuel Trummer, Christoph Koch_.  
+[[Paper](https://doi.org/10.1145/3035918.3064039)]
 
 ## Students
 
