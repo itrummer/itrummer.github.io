@@ -55,14 +55,22 @@
 
 ### 2021
 
-- **TODS 2021 "Best of SIGMOD" Edition** SkinnerDB: regret-bounded query evaluation via reinforcement learning. _Immanuel Trummer, Junxiong Wang, Ziyun Wei et al._ 
-- **VLDB 2021** The case for NLP-enhanced database tuning: towards tuning tools that read the manual. _Immanuel Trummer_.
-- **VLDB 2021** Robust voice querying with MUVE: optimally visualizing results of phonetically similar queries. _Ziyun Wei, Immanuel Trummer, Connor Anderson_.
-- **IEEE Data Engineering Bulletin** WebChecker: towards an infrastructure for efficient misinformation detection at Web scale. _Immanuel Trummer_.
-- **SIGMOD Record 2021** Database tuning using natural language processing. _Immanuel Trummer_.
-- **SIGMOD 2021** Demonstrating UDO: a unified approach for optimizing transaction code, physical design, and system parameters via reinforcement learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.
-- **SIGMOD 2021** Demonstrating robust voice querying with MUVE: optimally visualizing results of phonetically similar queries. _Ziyun Wei, Immanuel Trummer, Connor Anderson_.
-- **ICDE 2021** Optimally summarizing data by small fact sets for concise answers to voice queries. _Immanuel Trummer, Connor Anderson_.
+- **TODS 2021 "Best of SIGMOD" Edition** SkinnerDB: regret-bounded query evaluation via reinforcement learning. _Immanuel Trummer, Junxiong Wang, Ziyun Wei et al._  
+[[Paper](https://doi.org/10.1145/3464389) [Code](https://github.com/cornelldbgroup/skinnerdb) [Talk](https://youtu.be/VvYSaodEdrM)]
+- **VLDB 2021** The case for NLP-enhanced database tuning: towards tuning tools that read the manual. _Immanuel Trummer_.  
+[[Paper](https://doi.org/10.14778/3450980.3450984) [Talk](https://youtu.be/Spa5qzKbJ4M)]
+- **VLDB 2021** Robust voice querying with MUVE: optimally visualizing results of phonetically similar queries. _Ziyun Wei, Immanuel Trummer, Connor Anderson_.  
+[[Paper](https://doi.org/10.14778/3476249.3476289)]
+- **IEEE Data Engineering Bulletin** WebChecker: towards an infrastructure for efficient misinformation detection at Web scale. _Immanuel Trummer_.  
+[[Paper](https://scholar.archive.org/work/s5zifo4e4bbgrntq3ty3s7epmi/access/wayback/http://sites.computer.org/debull/A21sept/p66.pdf) [Code](https://github.com/itrummer/WebChecker)]
+- **SIGMOD Record 2021** Database tuning using natural language processing. _Immanuel Trummer_.  
+[[Paper](https://doi.org/10.1145/3503780.3503788)]
+- **SIGMOD 2021** Demonstrating UDO: a unified approach for optimizing transaction code, physical design, and system parameters via reinforcement learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.  
+[[Paper](https://doi.org/10.1145/3448016.3452754) [Code](https://github.com/jxiw/UDO)]
+- **SIGMOD 2021** Demonstrating robust voice querying with MUVE: optimally visualizing results of phonetically similar queries. _Ziyun Wei, Immanuel Trummer, Connor Anderson_.  
+[[Paper](https://doi.org/10.1145/3448016.3452753)]
+- **ICDE 2021** Optimally summarizing data by small fact sets for concise answers to voice queries. _Immanuel Trummer, Connor Anderson_.  
+[[Paper](https://doi.org/10.1109/ICDE51399.2021.00151) [Code](https://github.com/itrummer/CiceroDBzero) [Talk](https://youtu.be/hxH-hLociM4)]
 
 ### 2020
 
