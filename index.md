@@ -91,12 +91,18 @@
 
 ### 2019
 
-- **VLDB 2019** AggChecker: a fact-checking system for text summaries of relational data sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liy Niyati Mehta_.
-- **SIGMOD 2019** SkinnerDB: Regret-bounded query evaluation via reinforcement learning. _Immanuel Trummer, Junxiong Wang, Deepak Maram, Samuel Moseley, Saehan Jo, Joseph Antonakakis_.
-- **SIGMOD 2019** A holistic approach for query evaluation and result vocalization in voice-based OLAP. _Immanuel Trummer, Yicheng Wang, Saketh Mahankali_.
-- **SIGMOD 2019** Exact cardinality query optimization with bounded execution cost. _Immanuel Trummer_.
-- **SIGMOD 2019** Verifying text summaries of relational data sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liu, Niyati Mehta_.
-- **CIDR 2019** Data Vocalization with CiceroDB. _Immanuel Trummer_.
+- **VLDB 2019** AggChecker: a fact-checking system for text summaries of relational data sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liy Niyati Mehta_.  
+[[Paper](https://doi.org/10.14778/3352063.3352104) [Demo](http://en-cs-dbgroup.coecis.cornell.edu/)]
+- **SIGMOD 2019** SkinnerDB: Regret-bounded query evaluation via reinforcement learning. _Immanuel Trummer, Junxiong Wang, Deepak Maram, Samuel Moseley, Saehan Jo, Joseph Antonakakis_.  
+[[Paper](https://doi.org/10.1145/3299869.3300088) [Talk](https://youtu.be/QRYVnKaZ9fw)]
+- **SIGMOD 2019** A holistic approach for query evaluation and result vocalization in voice-based OLAP. _Immanuel Trummer, Yicheng Wang, Saketh Mahankali_.  
+[[Paper](https://doi.org/10.1145/3299869.3300089) [Talk](https://youtu.be/RZXL7DyO6ow)]
+- **SIGMOD 2019** Exact cardinality query optimization with bounded execution cost. _Immanuel Trummer_.  
+[[Paper](https://doi.org/10.1145/3299869.3300087) [Talk](https://youtu.be/6mA5GxqYRdw)]
+- **SIGMOD 2019** Verifying text summaries of relational data sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liu, Niyati Mehta_.  
+[[Paper](https://doi.org/10.1145/3299869.3300074) [Talk](https://youtu.be/iSkTuu9-KjI)]
+- **CIDR 2019** Data Vocalization with CiceroDB. _Immanuel Trummer_.  
+[[Paper](https://www.cidrdb.org/cidr2019/papers/p39-trummer-cidr19.pdf) [Talk](https://youtu.be/SXIelQUEIIM)]
 
 ## Students
 
