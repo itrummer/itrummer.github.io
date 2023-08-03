@@ -12,16 +12,25 @@
 
 ### 2023
 
-- **VLDB 2023 - Conditional Accept** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_. 
-- **VLDB 2023 - Conditional Accept** Can Large Language Models Predict Data Correlations from Column Names? _Immanuel Trummer_.
-- **VLDB 2023 - Conditional Accept** Quantum-Inspired Digital Annealing for Join Ordering. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.
-- **VLDB 2023** SkinnerMT: parallelizing for efficiency and robustness in adaptive query processing on multicore platforms. _Ziyun Wei, Immanuel Trummer_.
-- **VLDB 2023** ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Join Algorithms via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Amet Kara, Dan Olteanu_.
-- **VLDB 2023 QDSM** Quantum Optimisation of General Join Trees. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.
-- **VLDB 2023** Demonstrating ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Joins via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Amet Kara, Dan Olteanu_.
-- **VLDB 2023** Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4. _Immanuel Trummer_.
-- **SIGMOD 2023** Demonstration of ThalamusDB: answering complex SQL queries with natural language predicates on multi-modal data. _Saehan Jo_, _Immanuel Trummer_.
-- **SIGMOD 2023** ***Best Demo Runner Up*** Demonstrating NaturalMiner: searching large data sets for abstract patterns described in natural language. _Immanuel Trummer_.
+- **VLDB 2023 - Conditional Accept** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
+[[Paper](https://arxiv.org/abs/2304.09433) [Code](https://github.com/HazyResearch/evaporate)]
+- **VLDB 2023 - Conditional Accept** Can Large Language Models Predict Data Correlations from Column Names? _Immanuel Trummer_.  
+[[Paper](https://arxiv.org/pdf/2107.04553.pdf) [Code](https://github.com/itrummer/DataCorrelationPredictionWithNLP)]
+- **VLDB 2023 - Conditional Accept** Quantum-Inspired Digital Annealing for Join Ordering. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
+- **VLDB 2023** SkinnerMT: parallelizing for efficiency and robustness in adaptive query processing on multicore platforms. _Ziyun Wei, Immanuel Trummer_.  
+[[Paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf)]
+- **VLDB 2023** ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Join Algorithms via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Amet Kara, Dan Olteanu_.  
+[[Paper](https://arxiv.org/pdf/2307.16540) [Code](https://github.com/jxiw/ADOPT)]
+- **VLDB 2023 QDSM** Quantum Optimisation of General Join Trees. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
+[[Paper](https://www.lfdr.de/Publications/2023/ScTrMa_QDSM23.pdf)]
+- **VLDB 2023** Demonstrating ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Joins via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Amet Kara, Dan Olteanu_.  
+[[Code](https://github.com/jxiw/ADOPT)]
+- **VLDB 2023** Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4. _Immanuel Trummer_.  
+[[Code](https://github.com/itrummer/CodexDB)]
+- **SIGMOD 2023** Demonstration of ThalamusDB: answering complex SQL queries with natural language predicates on multi-modal data. _Saehan Jo_, _Immanuel Trummer_.  
+[[Paper](https://dl.acm.org/doi/abs/10.1145/3555041.3589730) [Talk](https://dl.acm.org/doi/abs/10.1145/3555041.3589730#)]
+- **SIGMOD 2023** ***Best Demo Runner Up*** Demonstrating NaturalMiner: searching large data sets for abstract patterns described in natural language. _Immanuel Trummer_.  
+[[Paper](https://dl.acm.org/doi/10.1145/3555041.3589694) [Code](https://github.com/itrummer/NaturalMiner) [Talk](https://dl.acm.org/doi/10.1145/3555041.3589694#)]
 
 ### 2022
 
