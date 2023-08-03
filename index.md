@@ -28,7 +28,7 @@
 - **VLDB 2023** Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4. _Immanuel Trummer_.  
 [[Code](https://github.com/itrummer/CodexDB)]
 - **SIGMOD 2023** Demonstration of ThalamusDB: answering complex SQL queries with natural language predicates on multi-modal data. _Saehan Jo_, _Immanuel Trummer_.  
-[[Paper](https://dl.acm.org/doi/abs/10.1145/3555041.3589730) [Talk](https://dl.acm.org/doi/abs/10.1145/3555041.3589730#)]
+[[Paper](https://dl.acm.org/doi/abs/10.1145/3555041.3589730) [Talk](https://youtu.be/wV9UhULhFg8)]
 - **SIGMOD 2023** ***Best Demo Runner Up*** Demonstrating NaturalMiner: searching large data sets for abstract patterns described in natural language. _Immanuel Trummer_.  
 [[Paper](https://dl.acm.org/doi/10.1145/3555041.3589694) [Code](https://github.com/itrummer/NaturalMiner) [Talk](https://dl.acm.org/doi/10.1145/3555041.3589694#)]
 
@@ -74,13 +74,20 @@
 
 ### 2020
 
-- **VLDB 2020** Scrutinizer: A Mixed-Initiative Approach to Large-Scale, Data-Driven Claim Verification. _George Karagiannis, Mohammed Saeed, Paolo Papotti, Immanuel Trummer_.
-- **VLDB 2020** Demonstration of ScroogeDB: getting more bang for the buck with deterministic approximation in the Cloud. _Saehan Jo, Jialing Pei, Immanuel Trummer_.
-- **VLDB 2020** Demonstrating the voice-based exploration of large data sets with CiceroDB-Zero. _Immanuel Trummer_.
-- **VLDB 2020** Scrutinizer: fact checking statistical claims. _George Karagiannis, Mohammed Saeed, Paolo Papotti, Immanuel Trummer_.
-- **SIGMOD 2020** Demonstration of BitGourmet: data analysis via deterministic approximation. _Saehan Jo, Immanuel Trummer_.
-- **VLDB 2020** Mining an “Anti-Knowledge Base” from Wikipedia updates with applications to fact checking and beyond. _Georgios Karagiannis, Immanuel Trummer, Saehan Jo, Shubham Khandelwal, Xuezhi Wang, Cong Yu_.
-- **CIDR 2020** BitGourmet: deterministic approximation via optimized bit selections. _Saehan Jo, Immanuel Trummer_.
+- **VLDB 2020** Scrutinizer: A Mixed-Initiative Approach to Large-Scale, Data-Driven Claim Verification. _George Karagiannis, Mohammed Saeed, Paolo Papotti, Immanuel Trummer_.  
+[[Paper](https://doi.org/10.14778/3407790.3407841) [Code](https://github.com/geokaragiannis/statchecker)]
+- **VLDB 2020** Demonstration of ScroogeDB: getting more bang for the buck with deterministic approximation in the Cloud. _Saehan Jo, Jialing Pei, Immanuel Trummer_.  
+[[Paper](https://doi.org/10.14778/3415478.3415519)]
+- **VLDB 2020** Demonstrating the voice-based exploration of large data sets with CiceroDB-Zero. _Immanuel Trummer_.  
+[[Paper](https://doi.org/10.14778/3415478.3415496) [Code](https://github.com/itrummer/CiceroDBzero)]
+- **VLDB 2020** Scrutinizer: fact checking statistical claims. _George Karagiannis, Mohammed Saeed, Paolo Papotti, Immanuel Trummer_.  
+[[Paper](https://doi.org/10.14778/3415478.3415520) [Code](https://github.com/geokaragiannis/statchecker)]
+- **SIGMOD 2020** Demonstration of BitGourmet: data analysis via deterministic approximation. _Saehan Jo, Immanuel Trummer_.  
+[[Paper](https://doi.org/10.1145/3318464.3384709)]
+- **VLDB 2020** Mining an “Anti-Knowledge Base” from Wikipedia updates with applications to fact checking and beyond. _Georgios Karagiannis, Immanuel Trummer, Saehan Jo, Shubham Khandelwal, Xuezhi Wang, Cong Yu_.  
+[[Paper](https://doi.org/10.14778/3372716.3372727)]
+- **CIDR 2020** BitGourmet: deterministic approximation via optimized bit selections. _Saehan Jo, Immanuel Trummer_.  
+[[Paper](https://www.cidrdb.org/cidr2020/papers/p5-jo-cidr20.pdf) [Talk](https://youtu.be/YsSUDXhkwN4)]
 
 ### 2019
 
