@@ -34,15 +34,24 @@
 
 ### 2022
 
-- **VLDB 2022, PhD Workshop** Building learned federated query optimizers. _Victor Giannakouris, Immanuel Trummer_.
-- **VLDB 2022** CodexDB: synthesizing code for query processing from natural language instructions using GPT-3 Codex. _Immanuel Trummer_.
-- **VLDB 2022** BABOONS: black-box optimization of data summaries in natural language. _Immanuel Trummer_.
-- **VLDB 2022** From BERT to GPT-3 Codex: harnessing the potential of very large language models for data management. _Immanuel Trummer_.
-- **VLDB 2022** UDO: universal database optimization using reinforcement learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.
-- **SIGMOD 2022** Demonstrating DB-BERT: a database tuning tool that "reads the manual". _Immanuel Trummer_.
-- **AAAI 2022** Procrastinated tree search: black-box optimization with delayed, noisy, and multi-fidelity feedback. _Junxiong Wang, Debabrota Basu, Immanuel Trummer_.
-- **SIGMOD 2022** DB-BERT: a database tuning tool that "reads the manual". _Immanuel Trummer_.
-- **CIDR 2022** Towards NLP-enhanced data profiling tools. (Abstract) _Immanuel Trummer_.
+- **VLDB 2022, PhD Workshop** Building learned federated query optimizers. _Victor Giannakouris, Immanuel Trummer_.  
+[[Paper](http://ceur-ws.org/Vol-3186/paper_5.pdf)]
+- **VLDB 2022** CodexDB: synthesizing code for query processing from natural language instructions using GPT-3 Codex. _Immanuel Trummer_.  
+[[Paper](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf) [Code](https://github.com/itrummer/CodexDB) [Talk](https://youtu.be/uPyjIkHYsxY)]
+- **VLDB 2022** BABOONS: black-box optimization of data summaries in natural language. _Immanuel Trummer_.  
+[[Paper](https://dl.acm.org/doi/10.14778/3551793.3551846) [Code](https://github.com/itrummer/NaturalMiner)]
+- **VLDB 2022** From BERT to GPT-3 Codex: harnessing the potential of very large language models for data management. _Immanuel Trummer_.  
+[[Paper](https://dl.acm.org/doi/10.14778/3554821.3554896) [Talk](https://itrummer.github.io/lm4db/)]
+- **VLDB 2022** UDO: universal database optimization using reinforcement learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.  
+[[Paper](https://doi.org/10.14778/3484224.3484236) [Code](https://github.com/jxiw/UDO)]
+- **SIGMOD 2022** Demonstrating DB-BERT: a database tuning tool that "reads the manual". _Immanuel Trummer_.  
+[[Paper](https://dl.acm.org/doi/10.1145/3514221.3520171) [Code](https://github.com/itrummer/dbbert) [Talk](https://youtu.be/2DYPoMMq8pE)]
+- **AAAI 2022** Procrastinated tree search: black-box optimization with delayed, noisy, and multi-fidelity feedback. _Junxiong Wang, Debabrota Basu, Immanuel Trummer_.  
+[[Paper](https://doi.org/10.1609/aaai.v36i9.21280) [Code](https://github.com/OVSS/PCTS)]
+- **SIGMOD 2022** DB-BERT: a database tuning tool that "reads the manual". _Immanuel Trummer_.  
+[[Paper](https://doi.org/10.1145/3514221.3517843) [Code](https://github.com/itrummer/dbbert) [Talk](https://youtu.be/JFQbrK5GgFk?t=837)]
+- **CIDR 2022** Towards NLP-enhanced data profiling tools. (Abstract) _Immanuel Trummer_.  
+[[Paper](https://www.cidrdb.org/cidr2022/papers/a55-trummer.pdf) [Code](https://github.com/itrummer/DataCorrelationPredictionWithNLP) [Talk](https://youtu.be/oIjWEVXn51s)]
 
 ### 2021
 
