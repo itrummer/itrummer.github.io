@@ -129,7 +129,7 @@
 - NSF 1910830: [III: Small: Regret-Bounded Query Evaluation via Reinforcement Learning](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910830) (2019-2022).
 - Google AI-Powered Immediate Response to Pandemics Initiative: Data-Driven Automatic Fact Checking of Coronavirus Claims (2020).
 - Fact-Checking Development Grant (IFCN & YouTube): Automatic Fact-Checking of Coronavirus Claims (2020).
-- Google Faculty Research Award: [Mining an 'Anti-Knowledge Base' for Fact Checking from Wikipedia Updates](https://research.google/outreach/past-programs/faculty-research-awards/?category=2018) (2018).
+- Google Faculty Research Award: [Mining an "Anti-Knowledge Base" for Fact Checking from Wikipedia Updates](https://research.google/outreach/past-programs/faculty-research-awards/?category=2018) (2018).
 - Google Faculty Research Award: [Optimizing Voice-Based Output of Relational Data](http://services.google.com/fh/files/blogs/fra2016recipients_03_13.pdf) (2016).
 
 ## Students
