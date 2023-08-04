@@ -123,6 +123,15 @@
 - **SIGMOD 2017** Solving the Join Ordering Problem via Mixed Integer Linear Programming. _Immanuel Trummer, Christoph Koch_.  
 [[Paper](https://doi.org/10.1145/3035918.3064039)]
 
+## Funding
+
+- [NSF 2239326: "CAREER: Mining Hints from Text Documents to Guide Automated Database Performance Tuning"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2239326) (2023-2028). PI: Immanuel Trummer. Total Amount: $594,874.
+- [NSF 1910830: "III: Small: Regret-Bounded Query Evaluation via Reinforcement Learning"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910830) (2019-2022). PI: Immanuel Trummer. Total Amount: $499,999.
+- Google AI-Powered Immediate Response to Pandemics Initiative: "Data-driven Automatic Fact Checking of Coronavirus Claims" (2020). PIs: Immanuel Trummer, Paolo Papotti (Co-PI). Total Amount: $120,000.
+- Fact-Checking Development Grant (IFCN & YouTube): "Automatic Fact-Checking of Coronavirus Claims" (2020). PIs: Paolo Papotti, Immanuel Trummer (Co-PI). Total Amount: $49,800.
+- [Google Faculty Research Award: "Mining an 'Anti-Knowledge Base' for Fact Checking from Wikipedia Updates"](https://research.google/outreach/past-programs/faculty-research-awards/?category=2018) (2018). PI: Immanuel Trummer. Total Amount: $65,235.
+- [Google Faculty Research Award: "Optimizing Voice-Based Output of Relational Data"](http://services.google.com/fh/files/blogs/fra2016recipients_03_13.pdf) (2016). PI: Immanuel Trummer. Total Amount: $57,407.
+
 ## Students
 
 - Junxiong Wang
@@ -130,14 +139,16 @@
 - Victor Giannakouris
 - Ziyun Wei
 
-## Cornell Courses
+## Teaching
+
+### Cornell Courses
 
 - CS 4320: Introduction to database systems.
 - CS 4321: Practicum in database systems.
 - CS 6320: Advanced database systems.
 - CS 7390: Seminar in database systems.
 
-## Online Courses
+### Online Courses
 
 - [Introductory database lecture](https://youtu.be/4cWkVbC2bNE) (over 1M views!)
 - [Tutorial on large language models](https://itrummer.github.io/lm4db/)
