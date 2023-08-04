@@ -125,12 +125,12 @@
 
 ## Funding
 
-- [NSF 2239326: "CAREER: Mining Hints from Text Documents to Guide Automated Database Performance Tuning"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2239326) (2023-2028). PI: Immanuel Trummer. Total Amount: $594,874.
-- [NSF 1910830: "III: Small: Regret-Bounded Query Evaluation via Reinforcement Learning"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910830) (2019-2022). PI: Immanuel Trummer. Total Amount: $499,999.
-- Google AI-Powered Immediate Response to Pandemics Initiative: "Data-driven Automatic Fact Checking of Coronavirus Claims" (2020). PIs: Immanuel Trummer, Paolo Papotti (Co-PI). Total Amount: $120,000.
-- Fact-Checking Development Grant (IFCN & YouTube): "Automatic Fact-Checking of Coronavirus Claims" (2020). PIs: Paolo Papotti, Immanuel Trummer (Co-PI). Total Amount: $49,800.
-- [Google Faculty Research Award: "Mining an 'Anti-Knowledge Base' for Fact Checking from Wikipedia Updates"](https://research.google/outreach/past-programs/faculty-research-awards/?category=2018) (2018). PI: Immanuel Trummer. Total Amount: $65,235.
-- [Google Faculty Research Award: "Optimizing Voice-Based Output of Relational Data"](http://services.google.com/fh/files/blogs/fra2016recipients_03_13.pdf) (2016). PI: Immanuel Trummer. Total Amount: $57,407.
+- [NSF 2239326: "CAREER: Mining Hints from Text Documents to Guide Automated Database Performance Tuning"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2239326) (2023-2028).
+- [NSF 1910830: "III: Small: Regret-Bounded Query Evaluation via Reinforcement Learning"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910830) (2019-2022).
+- Google AI-Powered Immediate Response to Pandemics Initiative: "Data-driven Automatic Fact Checking of Coronavirus Claims" (2020).
+- Fact-Checking Development Grant (IFCN & YouTube): "Automatic Fact-Checking of Coronavirus Claims" (2020).
+- [Google Faculty Research Award: "Mining an 'Anti-Knowledge Base' for Fact Checking from Wikipedia Updates"](https://research.google/outreach/past-programs/faculty-research-awards/?category=2018) (2018).
+- [Google Faculty Research Award: "Optimizing Voice-Based Output of Relational Data"](http://services.google.com/fh/files/blogs/fra2016recipients_03_13.pdf) (2016).
 
 ## Students
 
