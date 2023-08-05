@@ -22,12 +22,12 @@
 - **PVLDB 2023 - Conditional Accept** Quantum-Inspired Digital Annealing for Join Ordering. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
 - **PVLDB 2023** ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Join Algorithms via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Amet Kara, Dan Olteanu_.  
 [[Paper](https://arxiv.org/pdf/2307.16540) [Code](https://github.com/jxiw/ADOPT)]
-- **VLDB 2023 QDSM** Quantum Optimisation of General Join Trees. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
-[[Paper](https://www.lfdr.de/Publications/2023/ScTrMa_QDSM23.pdf)]
 - **PVLDB 2023** Demonstrating ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Joins via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Amet Kara, Dan Olteanu_.  
 [[Code](https://github.com/jxiw/ADOPT)]
 - **PVLDB 2023** Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4. _Immanuel Trummer_.  
 [[Code](https://github.com/itrummer/CodexDB)]
+- **VLDB 2023 QDSM** Quantum Optimisation of General Join Trees. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
+[[Paper](https://www.lfdr.de/Publications/2023/ScTrMa_QDSM23.pdf)]
 - **SIGMOD 2023** Demonstration of ThalamusDB: Answering Complex SQL Queries with Natural Language Predicates on Multi-Modal Data. _Saehan Jo_, _Immanuel Trummer_.  
 [[Paper](https://dl.acm.org/doi/abs/10.1145/3555041.3589730) [Talk](https://youtu.be/wV9UhULhFg8)]
 - **SIGMOD 2023** ***Best Demo Runner Up*** Demonstrating NaturalMiner: Searching Large Data Sets for Abstract Patterns Described in Natural Language. _Immanuel Trummer_.  
@@ -35,10 +35,6 @@
 
 ### 2022
 
-- **PVLDB 2022** SkinnerMT: Parallelizing for Efficiency and Robustness in Adaptive Query Processing on Multicore Platforms. _Ziyun Wei, Immanuel Trummer_.  
-[[Paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf)]
-- **VLDB 2022, PhD Workshop** Building Learned Federated Query Optimizers. _Victor Giannakouris, Immanuel Trummer_.  
-[[Paper](http://ceur-ws.org/Vol-3186/paper_5.pdf)]
 - **PVLDB 2022** CodexDB: Synthesizing Code for Query Processing from Natural Language Instructions Using GPT-3 Codex. _Immanuel Trummer_.  
 [[Paper](https://www.vldb.org/pvldb/vol15/p2921-trummer.pdf) [Code](https://github.com/itrummer/CodexDB) [Talk](https://youtu.be/uPyjIkHYsxY)]
 - **PVLDB 2022** BABOONS: Black-Box Optimization of Data Summaries in Natural Language. _Immanuel Trummer_.  
@@ -47,6 +43,10 @@
 [[Paper](https://dl.acm.org/doi/10.14778/3554821.3554896) [Talk](https://itrummer.github.io/lm4db/)]
 - **PVLDB 2022** UDO: Universal Database Optimization Using Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.  
 [[Paper](https://doi.org/10.14778/3484224.3484236) [Code](https://github.com/jxiw/UDO)]
+- **PVLDB 2022** SkinnerMT: Parallelizing for Efficiency and Robustness in Adaptive Query Processing on Multicore Platforms. _Ziyun Wei, Immanuel Trummer_.  
+[[Paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf)]
+- **VLDB 2022, PhD Workshop** Building Learned Federated Query Optimizers. _Victor Giannakouris, Immanuel Trummer_.  
+[[Paper](http://ceur-ws.org/Vol-3186/paper_5.pdf)]
 - **SIGMOD 2022** Demonstrating DB-BERT: a Database Tuning Tool that "Reads the Manual". _Immanuel Trummer_.  
 [[Paper](https://dl.acm.org/doi/10.1145/3514221.3520171) [Code](https://github.com/itrummer/dbbert) [Talk](https://youtu.be/2DYPoMMq8pE)]
 - **AAAI 2022** Procrastinated Tree Search: Black-Box Optimization with Delayed, Noisy, and Multi-Fidelity Feedback. _Junxiong Wang, Debabrota Basu, Immanuel Trummer_.  
