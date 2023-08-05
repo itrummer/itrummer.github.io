@@ -26,12 +26,13 @@
 [[Code](https://github.com/jxiw/ADOPT)]
 - **PVLDB 2023** Demonstrating GPT-DB: Generating Query-Specific and Customizable Code for SQL Processing with GPT-4. _Immanuel Trummer_.  
 [[Code](https://github.com/itrummer/CodexDB)]
-- **VLDB 2023 QDSM** Quantum Optimisation of General Join Trees. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
-[[Paper](https://www.lfdr.de/Publications/2023/ScTrMa_QDSM23.pdf)]
-- **SIGMOD 2023** Demonstration of ThalamusDB: Answering Complex SQL Queries with Natural Language Predicates on Multi-Modal Data. _Saehan Jo_, _Immanuel Trummer_.  
-[[Paper](https://dl.acm.org/doi/abs/10.1145/3555041.3589730) [Talk](https://youtu.be/wV9UhULhFg8)]
 - **SIGMOD 2023** ***Best Demo Runner Up*** Demonstrating NaturalMiner: Searching Large Data Sets for Abstract Patterns Described in Natural Language. _Immanuel Trummer_.  
 [[Paper](https://dl.acm.org/doi/10.1145/3555041.3589694) [Code](https://github.com/itrummer/NaturalMiner) [Talk](https://dl.acm.org/doi/10.1145/3555041.3589694#)]
+- **SIGMOD 2023** Demonstration of ThalamusDB: Answering Complex SQL Queries with Natural Language Predicates on Multi-Modal Data. _Saehan Jo_, _Immanuel Trummer_.  
+[[Paper](https://dl.acm.org/doi/abs/10.1145/3555041.3589730) [Talk](https://youtu.be/wV9UhULhFg8)]
+- **VLDB 2023 QDSM** Quantum Optimisation of General Join Trees. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
+[[Paper](https://www.lfdr.de/Publications/2023/ScTrMa_QDSM23.pdf)]
+
 
 ### 2022
 
@@ -77,6 +78,8 @@
 
 ### 2020
 
+- **BDA 2020** ***Best Demonstration Award*** Scrutinizer: a System for Checking Statistical Claims. _Georgios Karagiannis, Mohammed Saeed, Paolo Papotti, Immanuel Trummer_.  
+[[Paper](https://inria.hal.science/hal-03176597/document#page=72)]
 - **PVLDB 2020** Scrutinizer: A Mixed-Initiative Approach to Large-Scale, Data-Driven Claim Verification. _George Karagiannis, Mohammed Saeed, Paolo Papotti, Immanuel Trummer_.  
 [[Paper](https://doi.org/10.14778/3407790.3407841) [Code](https://github.com/geokaragiannis/statchecker)]
 - **PVLDB 2020** Mining an “Anti-Knowledge Base” from Wikipedia Updates with Applications to Fact Checking and Beyond. _Georgios Karagiannis, Immanuel Trummer, Saehan Jo, Shubham Khandelwal, Xuezhi Wang, Cong Yu_.  
@@ -89,15 +92,11 @@
 [[Paper](https://doi.org/10.14778/3415478.3415520) [Code](https://github.com/geokaragiannis/statchecker)]
 - **SIGMOD 2020** Demonstration of BitGourmet: Data Analysis via Deterministic Approximation. _Saehan Jo, Immanuel Trummer_.  
 [[Paper](https://doi.org/10.1145/3318464.3384709)]
-- **BDA 2020** ***Best Demonstration Award*** Scrutinizer: a System for Checking Statistical Claims. _Georgios Karagiannis, Mohammed Saeed, Paolo Papotti, Immanuel Trummer_.  
-[[Paper](https://inria.hal.science/hal-03176597/document#page=72)]
 - **CIDR 2020** BitGourmet: Deterministic Approximation via Optimized Bit Selections. _Saehan Jo, Immanuel Trummer_.  
 [[Paper](https://www.cidrdb.org/cidr2020/papers/p5-jo-cidr20.pdf) [Talk](https://youtu.be/YsSUDXhkwN4)]
 
 ### 2019
 
-- **PVLDB 2019** AggChecker: a Fact-Checking System for Text Summaries of Relational Data Sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liy Niyati Mehta_.  
-[[Paper](https://doi.org/10.14778/3352063.3352104) [Demo](http://en-cs-dbgroup.coecis.cornell.edu/)]
 - **SIGMOD 2019** ***Selected for "Best of SIGMOD"*** SkinnerDB: Regret-bounded Query Evaluation via Reinforcement Learning. _Immanuel Trummer, Junxiong Wang, Deepak Maram, Samuel Moseley, Saehan Jo, Joseph Antonakakis_.  
 [[Paper](https://doi.org/10.1145/3299869.3300088) [Talk](https://youtu.be/QRYVnKaZ9fw)]
 - **SIGMOD 2019** A Holistic Approach for Query Evaluation and Result Vocalization in Voice-Based OLAP. _Immanuel Trummer, Yicheng Wang, Saketh Mahankali_.  
@@ -106,6 +105,8 @@
 [[Paper](https://doi.org/10.1145/3299869.3300087) [Talk](https://youtu.be/6mA5GxqYRdw)]
 - **SIGMOD 2019** Verifying Text Summaries of Relational Data Sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liu, Niyati Mehta_.  
 [[Paper](https://doi.org/10.1145/3299869.3300074) [Talk](https://youtu.be/iSkTuu9-KjI)]
+- **PVLDB 2019** AggChecker: a Fact-Checking System for Text Summaries of Relational Data Sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liy Niyati Mehta_.  
+[[Paper](https://doi.org/10.14778/3352063.3352104) [Demo](http://en-cs-dbgroup.coecis.cornell.edu/)]
 - **CIDR 2019** Data Vocalization with CiceroDB. _Immanuel Trummer_.  
 [[Paper](https://www.cidrdb.org/cidr2019/papers/p39-trummer-cidr19.pdf) [Talk](https://youtu.be/SXIelQUEIIM)]
 
