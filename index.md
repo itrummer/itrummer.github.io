@@ -53,7 +53,7 @@
 - **AAAI 2022** Procrastinated Tree Search: Black-Box Optimization with Delayed, Noisy, and Multi-Fidelity Feedback. _Junxiong Wang, Debabrota Basu, Immanuel Trummer_.  
 [[Paper](https://doi.org/10.1609/aaai.v36i9.21280) [Code](https://github.com/OVSS/PCTS)]
 - **SIGMOD 2022** DB-BERT: a Database Tuning Tool that "Reads the Manual". _Immanuel Trummer_.  
-[[Paper](https://doi.org/10.1145/3514221.3517843) [Code](https://github.com/itrummer/dbbert) [Talk](https://youtu.be/JFQbrK5GgFk?t=837)]
+[[Paper](https://doi.org/10.1145/3514221.3517843) [Code](https://github.com/itrummer/dbbert) [Talk](https://youtu.be/G4tvzzjQJlo)]
 - **CIDR 2022** Towards NLP-Enhanced Data Profiling Tools. (Abstract) _Immanuel Trummer_.  
 [[Paper](https://www.cidrdb.org/cidr2022/papers/a55-trummer.pdf) [Code](https://github.com/itrummer/DataCorrelationPredictionWithNLP) [Talk](https://youtu.be/oIjWEVXn51s)]
 
