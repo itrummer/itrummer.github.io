@@ -43,7 +43,7 @@
 - **PVLDB 2022** From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management. _Immanuel Trummer_.  
 [[Paper](https://dl.acm.org/doi/10.14778/3554821.3554896) [Talk](https://itrummer.github.io/lm4db/)]
 - **PVLDB 2022** UDO: Universal Database Optimization Using Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Debabrota Basu_.  
-[[Paper](https://doi.org/10.14778/3484224.3484236) [Code](https://github.com/jxiw/UDO)]
+[[Paper](https://doi.org/10.14778/3484224.3484236) [Code](https://github.com/jxiw/UDO) [Talk](https://youtu.be/kpkDwJXHjyY)]
 - **PVLDB 2022** SkinnerMT: Parallelizing for Efficiency and Robustness in Adaptive Query Processing on Multicore Platforms. _Ziyun Wei, Immanuel Trummer_.  
 [[Paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf)]
 - **VLDB 2022, PhD Workshop** Building Learned Federated Query Optimizers. _Victor Giannakouris, Immanuel Trummer_.  
