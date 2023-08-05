@@ -144,10 +144,10 @@
 
 ## Students
 
-- Junxiong Wang
-- Saehan Jo
-- Victor Giannakouris
-- Ziyun Wei
+- Junxiong Wang ([Last paper](https://arxiv.org/pdf/2307.16540))
+- Saehan Jo ([Last paper](https://dl.acm.org/doi/abs/10.1145/3555041.3589730))
+- Victor Giannakouris ([Last paper](http://ceur-ws.org/Vol-3186/paper_5.pdf))
+- Ziyun Wei ([Last paper](https://www.vldb.org/pvldb/vol16/p905-wei.pdf))
 
 ## Teaching
 
