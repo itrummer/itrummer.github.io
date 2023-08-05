@@ -102,7 +102,7 @@
 - **SIGMOD 2019** A Holistic Approach for Query Evaluation and Result Vocalization in Voice-Based OLAP. _Immanuel Trummer, Yicheng Wang, Saketh Mahankali_.  
 [[Paper](https://doi.org/10.1145/3299869.3300089) [Talk](https://youtu.be/RZXL7DyO6ow)]
 - **SIGMOD 2019** Exact Cardinality Query Optimization with Bounded Execution Cost. _Immanuel Trummer_.  
-[[Paper](https://doi.org/10.1145/3299869.3300087) [Talk](https://youtu.be/6mA5GxqYRdw)]
+[[Paper](https://doi.org/10.1145/3299869.3300087) [Code](https://github.com/itrummer/ExactCardinalityQueryOptimization) [Talk](https://youtu.be/6mA5GxqYRdw)]
 - **SIGMOD 2019** Verifying Text Summaries of Relational Data Sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liu, Niyati Mehta_.  
 [[Paper](https://doi.org/10.1145/3299869.3300074) [Talk](https://youtu.be/iSkTuu9-KjI)]
 - **PVLDB 2019** AggChecker: a Fact-Checking System for Text Summaries of Relational Data Sets. _Saehan Jo, Immanuel Trummer, Weicheng Yu, Xuezhi Wang, Cong Yu, Daniel Liy Niyati Mehta_.  
@@ -124,7 +124,7 @@
 - **PVLDB 2017** Data Vocalization: Optimizing Voice Output of Relational Data. _Immanuel Trummer, Jiancheng Zhu, Mark Bryan_.  
 [[Paper](https://doi.org/10.14778/3137628.3137663) [Talk](https://youtu.be/pSDNYyFq604)]
 - **SIGMOD 2017** Solving the Join Ordering Problem via Mixed Integer Linear Programming. _Immanuel Trummer, Christoph Koch_.  
-[[Paper](https://doi.org/10.1145/3035918.3064039)]
+[[Paper](https://doi.org/10.1145/3035918.3064039) [Code](https://drive.google.com/open?id=0ByvVqlx_hKaLZXN1WV8weFRKQmc)]
 
 ## Funding
 
