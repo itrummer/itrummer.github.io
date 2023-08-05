@@ -83,7 +83,7 @@
 - **PVLDB 2020** Scrutinizer: A Mixed-Initiative Approach to Large-Scale, Data-Driven Claim Verification. _George Karagiannis, Mohammed Saeed, Paolo Papotti, Immanuel Trummer_.  
 [[Paper](https://doi.org/10.14778/3407790.3407841) [Code](https://github.com/geokaragiannis/statchecker)]
 - **PVLDB 2020** Mining an “Anti-Knowledge Base” from Wikipedia Updates with Applications to Fact Checking and Beyond. _Georgios Karagiannis, Immanuel Trummer, Saehan Jo, Shubham Khandelwal, Xuezhi Wang, Cong Yu_.  
-[[Paper](https://doi.org/10.14778/3372716.3372727)]
+[[Paper](https://doi.org/10.14778/3372716.3372727) [Data](https://github.com/cornelldbgroup/AntiKnowledgeBase)]
 - **PVLDB 2020** Demonstration of ScroogeDB: Getting More Bang for the Buck with Deterministic Approximation in the Cloud. _Saehan Jo, Jialing Pei, Immanuel Trummer_.  
 [[Paper](https://doi.org/10.14778/3415478.3415519)]
 - **PVLDB 2020** Demonstrating the Voice-Based Exploration of Large Data Sets with CiceroDB-Zero. _Immanuel Trummer_.  
