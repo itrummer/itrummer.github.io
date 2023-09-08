@@ -14,6 +14,8 @@
 
 ### 2023
 
+- **MEAP Book** AI-Assisted Data Science: Large Language Models for Multimodal Data Analysis. _Immanuel Trummer_.  
+[[Book](https://www.manning.com/books/ai-assisted-data-science)]
 - **VLDBJ 2023 - Conditional Accept** DB-BERT: a Database Tuning Tool that "Reads" the Manual. _Immanuel Trummer_.
 - **PVLDB 2023 - Conditional Accept** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
 [[Paper](https://arxiv.org/abs/2304.09433) [Code](https://github.com/HazyResearch/evaporate)]
