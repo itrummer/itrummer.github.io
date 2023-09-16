@@ -17,9 +17,9 @@
 - **MEAP Book** AI-Assisted Data Science: Large Language Models for Multimodal Data Analysis. _Immanuel Trummer_.  
 [[Book](https://www.manning.com/books/ai-assisted-data-science)]
 - **VLDBJ 2023 - Conditional Accept** DB-BERT: a Database Tuning Tool that "Reads" the Manual. _Immanuel Trummer_.
-- **PVLDB 2023 - Conditional Accept** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
-[[Paper](https://arxiv.org/abs/2304.09433) [Code](https://github.com/HazyResearch/evaporate)]
 - **PVLDB 2023 - Conditional Accept** Quantum-Inspired Digital Annealing for Join Ordering. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.
+- **PVLDB 2023** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
+[[Paper](https://arxiv.org/abs/2304.09433) [Code](https://github.com/HazyResearch/evaporate)]
 - **PVLDB 2023** Can Large Language Models Predict Data Correlations from Column Names? _Immanuel Trummer_.  
 [[Paper](https://arxiv.org/pdf/2107.04553.pdf) [Code](https://github.com/itrummer/DataCorrelationPredictionWithNLP)]
 - **PVLDB 2023** ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Join Algorithms via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Ahmet Kara, Dan Olteanu_.  
