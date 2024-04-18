@@ -16,7 +16,7 @@
 
 - **SIGMOD 2024** ThalamusDB: Approximate Query Processing on Multi-Modal Data. _Saehan Jo, Immanuel Trummer_.
 - **SIGMOD 2024** ROME: Robust Query Optimization via Parallel Multi-Plan Execution. _Ziyun Wei, Immanuel Trummer_.
-- **SIGMOD 2024** Demonstrating Lambda-Tune: Exploiting Large Language Models for Workload-Adaptive Database System Tuning. _Victor Giannakouris, Immanuel Trummer_.
+- **SIGMOD 2024** Demonstrating λ-Tune: Exploiting Large Language Models for Workload-Adaptive Database System Tuning. _Victor Giannakouris, Immanuel Trummer_.
 
 ### 2023
 
