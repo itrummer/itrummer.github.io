@@ -12,6 +12,12 @@
 
 ## Publications
 
+### 2024
+
+- **SIGMOD 2024** ThalamusDB: Approximate Query Processing on Multi-Modal Data. _Saehan Jo, Immanuel Trummer_.
+- **SIGMOD 2024** ROME: Robust Query Optimization via Parallel Multi-Plan Execution. _Ziyun Wei, Immanuel Trummer_.
+- **SIGMOD 2024** Demonstrating $\lambda$-Tune: Exploiting Large Language Models for Workload-Adaptive Database System Tuning. _Victor Giannakouris, Immanuel Trummer_.
+
 ### 2023
 
 - **MEAP Book** AI-Assisted Data Science: Large Language Models for Multimodal Data Analysis. _Immanuel Trummer_.  
