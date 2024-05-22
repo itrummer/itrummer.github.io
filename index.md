@@ -24,8 +24,8 @@
 [[Paper](https://arxiv.org/abs/2304.09433) [Code](https://github.com/HazyResearch/evaporate)]
 - **VLDB 2024** Can Large Language Models Predict Data Correlations from Column Names? _Immanuel Trummer_.  
 [[Paper](https://dl.acm.org/doi/10.14778/3625054.3625066) [Code](https://github.com/itrummer/DataCorrelationPredictionWithNLP)]
-- **QDATA 2024** Leveraging Quantum Computing for Database Index Selection. _Immanuel Trummer, Davide Venturelli_.
-- **QDATA 2024** Towards Out-of-Core Simulators for Quantum Computing. _Immanuel Trummer_.
+- **Q-DATA 2024** Leveraging Quantum Computing for Database Index Selection. _Immanuel Trummer, Davide Venturelli_.
+- **Q-DATA 2024** Towards Out-of-Core Simulators for Quantum Computing. _Immanuel Trummer_.
 - **RLC 2024** JoinGym: An Efficient Join Order Selection Environment. _Junxiong Wang, Kaiwen Wang, Yueying Li, Nathan Kallus, Immanuel Trummer, Wen Sun_.
 
 ### 2023
