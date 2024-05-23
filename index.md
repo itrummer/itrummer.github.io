@@ -32,7 +32,7 @@
 
 - **MEAP Book** AI-Assisted Data Science: Large Language Models for Multimodal Data Analysis. _Immanuel Trummer_.  
 [[Book](https://www.manning.com/books/ai-assisted-data-science)]
-- **VLDBJ 2023** DB-BERT: Making Database Tuning Tools "Read" the Manual. _Immanuel Trummer_.
+- **VLDBJ 2023** DB-BERT: Making Database Tuning Tools "Read" the Manual. _Immanuel Trummer_.  
 [[Paper](https://link.springer.com/article/10.1007/s00778-023-00831-y)]
 - **PVLDB 2023** ADOPT: Adaptively Optimizing Attribute Orders for Worst-Case Optimal Join Algorithms via Reinforcement Learning. _Junxiong Wang, Immanuel Trummer, Ahmet Kara, Dan Olteanu_.  
 [[Paper](https://arxiv.org/pdf/2307.16540) [Code](https://github.com/jxiw/ADOPT)]
