@@ -18,6 +18,7 @@
 - **SIGMOD 2024** ROME: Robust Query Optimization via Parallel Multi-Plan Execution. _Ziyun Wei, Immanuel Trummer_.
 - **SIGMOD 2024** Demonstrating λ-Tune: Exploiting Large Language Models for Workload-Adaptive Database System Tuning. _Victor Giannakouris, Immanuel Trummer_.
 - **ICDE 2024** Tutorial on Large Language Models: Principles and Practice. _Immanuel Trummer_.
+- **VLDB 2024** Generating Succinct Descriptions of Database Schemata for Cost-Efficient Prompting of Large Language Models. _Immanuel Trummer_.
 - **VLDB 2024** Quantum-Inspired Digital Annealing for Join Ordering. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
 [[Paper](https://lfdr.de/Publications/2023/ScTrMa_TR.pdf)]
 - **VLDB 2024** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
