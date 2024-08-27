@@ -18,13 +18,14 @@
 - **SIGMOD 2024** ROME: Robust Query Optimization via Parallel Multi-Plan Execution. _Ziyun Wei, Immanuel Trummer_.
 - **SIGMOD 2024** Demonstrating λ-Tune: Exploiting Large Language Models for Workload-Adaptive Database System Tuning. _Victor Giannakouris, Immanuel Trummer_.
 - **ICDE 2024** Tutorial on Large Language Models: Principles and Practice. _Immanuel Trummer_.
-- **VLDB 2024** Generating Succinct Descriptions of Database Schemata for Cost-Efficient Prompting of Large Language Models. _Immanuel Trummer_.
-- **VLDB 2024** Quantum-Inspired Digital Annealing for Join Ordering. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
-[[Paper](https://lfdr.de/Publications/2023/ScTrMa_TR.pdf)]
-- **VLDB 2024** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
-[[Paper](https://arxiv.org/abs/2304.09433) [Code](https://github.com/HazyResearch/evaporate)]
 - **VLDB 2024** Can Large Language Models Predict Data Correlations from Column Names? _Immanuel Trummer_.  
 [[Paper](https://dl.acm.org/doi/10.14778/3625054.3625066) [Code](https://github.com/itrummer/DataCorrelationPredictionWithNLP)]
+- **VLDB 2024** Generating Succinct Descriptions of Database Schemata for Cost-Efficient Prompting of Large Language Models. _Immanuel Trummer_.
+- **VLDB 2024** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
+[[Paper](https://arxiv.org/abs/2304.09433) [Code](https://github.com/HazyResearch/evaporate)]
+- **VLDB 2024** A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System. _Victor Giannakouris, Immanuel Trummer_.
+- **VLDB 2024** Quantum-Inspired Digital Annealing for Join Ordering. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
+[[Paper](https://lfdr.de/Publications/2023/ScTrMa_TR.pdf)]
 - **Q-DATA 2024** Leveraging Quantum Computing for Database Index Selection. _Immanuel Trummer, Davide Venturelli_.
 - **Q-DATA 2024** Towards Out-of-Core Simulators for Quantum Computing. _Immanuel Trummer_.
 - **RLC 2024** JoinGym: An Efficient Join Order Selection Environment. _Junxiong Wang, Kaiwen Wang, Yueying Li, Nathan Kallus, Immanuel Trummer, Wen Sun_.
