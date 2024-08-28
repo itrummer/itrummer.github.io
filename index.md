@@ -23,7 +23,7 @@
 - **VLDB 2024** Generating Succinct Descriptions of Database Schemata for Cost-Efficient Prompting of Large Language Models. _Immanuel Trummer_.
 - **VLDB 2024** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
 [[Paper](https://arxiv.org/abs/2304.09433) [Code](https://github.com/HazyResearch/evaporate)]
-- **VLDB 2024** A Demonstration of GPTuner: A GPT-Based Manual-Reading Database Tuning System. _Victor Giannakouris, Immanuel Trummer_.
+- **VLDB 2024** DBG-TP: A Large Language Model Assisted Query Performance Regression Debugger. _Victor Giannakouris, Immanuel Trummer_.
 - **VLDB 2024** Quantum-Inspired Digital Annealing for Join Ordering. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
 [[Paper](https://lfdr.de/Publications/2023/ScTrMa_TR.pdf)]
 - **Q-DATA 2024** Leveraging Quantum Computing for Database Index Selection. _Immanuel Trummer, Davide Venturelli_.
