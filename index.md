@@ -16,7 +16,7 @@
 
 - **SIGMOD 2025** λ-Tune: Harnessing Large Language Models for Automated Database System Tuning. _Victor Giannakouris, Immanuel Trummer_.
 - **SIGMOD 2025** SpareLLM: Automatically Selecting Task-Specific Minimum-Cost Large Language Models under Equivalence Constraint. _Saehan Jo, Immanuel Trummer_.
-- **VLDBJ 2025 Best of SIGMOD** Generating Highly Customizable Python Code for Data Processing with Large Language Models. _Immanuel Trummer_.
+- **VLDBJ 2025 Best of VLDB** Generating Highly Customizable Python Code for Data Processing with Large Language Models. _Immanuel Trummer_.
 - **Data Engineering Bulleting 2025** Customizing Operator Implementations for SQL Processing via Large Language Models. _Immanuel Trummer_.
 
 ### 2024
