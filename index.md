@@ -35,6 +35,7 @@
 [[Paper](https://lfdr.de/Publications/2023/ScTrMa_TR.pdf)]
 - **Q-DATA 2024** Leveraging Quantum Computing for Database Index Selection. _Immanuel Trummer, Davide Venturelli_.
 - **Q-DATA 2024** Towards Out-of-Core Simulators for Quantum Computing. _Immanuel Trummer_.
+- **Q-DATA 2024** First Workshop on Quantum Computing and Quantum-Inspired Technology for Data-Intensive Systems and Applications. _Ibrahim Sabek, Immanuel Trummer, Stefan Prestel_.
 - **RLC 2024** JoinGym: An Efficient Join Order Selection Environment. _Junxiong Wang, Kaiwen Wang, Yueying Li, Nathan Kallus, Immanuel Trummer, Wen Sun_.
 
 ### 2023
