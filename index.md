@@ -12,8 +12,13 @@
 
 ## Publications
 
+### 2026
+
+- **SIGMOD 2026** Large-Scale Multiple Query Optimisation with Incremental Quantum(-Inspired) Annealing. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.
+
 ### 2025
 
+- **VLDB 2025** CEDAR: A System for Cost-Efficient Data-Driven Claim Verification. _Tharushi Jayasekara, Immanuel Trummer_.
 - **SIGMOD 2025** Demonstrating CEDAR: A System for Cost-Efficient Data-Driven Claim Verification. _Tharushi Jayasekara, Immanuel Trummer_.
 - **SIGMOD 2025** Demonstrating SQLBarber: Leveraging Large Language Models to Generate Customized, Constraint-aware, and Realistic SQL. _Jiale Lao, Immanuel Trummer_.
 - **SIGMOD 2025** SwellDB: Dynamic Query-Driven Table Generation with Large Language Models. _Victor Giannakouris, Immanuel Trummer_.
@@ -22,8 +27,11 @@
 - **SIGMOD 2025** SpareLLM: Automatically Selecting Task-Specific Minimum-Cost Large Language Models under Equivalence Constraint. _Saehan Jo, Immanuel Trummer_. 
 - **VLDBJ 2025 Best of VLDB** Generating Highly Customizable Python Code for Data Processing with Large Language Models. _Immanuel Trummer_.  
 [[Paper](https://doi.org/10.1007/s00778-025-00900-4)]
-- **Data Engineering Bulleting 2025** Customizing Operator Implementations for SQL Processing via Large Language Models. _Immanuel Trummer_.  
+- **Data Engineering Bulletin 2025** Customizing Operator Implementations for SQL Processing via Large Language Models. _Immanuel Trummer_.  
 [[Paper](http://sites.computer.org/debull/A25mar/p45.pdf)]
+- **Q-Data 2025** Leveraging Quantum Computing for Optimal Data Allocation in Distributed Systems. _Immanuel Trummer_.
+- **Q-Data 2025** Cost-Based Query Optimization for Quantum Computation. _Immanuel Trummer_.
+
 
 ### 2024
 
