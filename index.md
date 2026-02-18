@@ -15,6 +15,8 @@
 ### 2026
 
 - **SIGMOD 2026** Large-Scale Multiple Query Optimisation with Incremental Quantum(-Inspired) Annealing. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.
+- **SIGMOD 2026** SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads. _Jiale Lao, Immanuel Trummer_.
+- **VLDB 2026** Hybrid Mixed Integer Linear Programming for Large-Scale Join Order Optimisation. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_. 
 
 ### 2025
 
