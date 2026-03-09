@@ -33,6 +33,7 @@
 [[Paper](http://sites.computer.org/debull/A25mar/p45.pdf)]
 - **Q-Data 2025** Leveraging Quantum Computing for Optimal Data Allocation in Distributed Systems. _Immanuel Trummer_.
 - **Q-Data 2025** Cost-Based Query Optimization for Quantum Computation. _Immanuel Trummer_.
+- **Q-DATA 2025** Second Workshop on Quantum Computing and Quantum-Inspired Technology for Data-Intensive Systems and Applications. _Ibrahim Sabek, Immanuel Trummer_.
 - **CDMS 2025** Rethinking Pluggable Federated Query Optimization: From Laptops to Data Warehouses. _Victor Giannakouris, Immanuel Trummer_.
 
 
