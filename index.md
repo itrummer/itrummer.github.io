@@ -14,9 +14,11 @@
 
 ### 2026
 
+- **Data Engineering Bulletin 2026** Optimal Block Nested Loops Implementations for Semantic Joins. _Immanuel Trummer_.
 - **SIGMOD 2026** Large-Scale Multiple Query Optimisation with Incremental Quantum(-Inspired) Annealing. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.
 - **SIGMOD 2026** SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads. _Jiale Lao, Immanuel Trummer_.
-- **VLDB 2026** Hybrid Mixed Integer Linear Programming for Large-Scale Join Order Optimisation. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_. 
+- **VLDB 2026** Hybrid Mixed Integer Linear Programming for Large-Scale Join Order Optimisation. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.
+- **VLDB 2026** SemBench: A Benchmark for Semantic Query Processing Engines. _Jiale Lao, Andreas Zimmerer, Olga Ovcharenko, Tianji Cong, Matthew Russo, Gerardo Vitagliano, Michael Cochez, Fatma Özcan, Gautam Gupta, Thibaud Hottelier, H. V. Jagadish, Kris Kissel, Sebastian Schelter, Andreas Kipf, Immanuel Trummer_.
 
 ### 2025
 
