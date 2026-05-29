@@ -14,6 +14,8 @@
 
 ### 2026
 
+- **Q-Data 2026** Leveraging Quantum Annealing for Materialized View Selection. _Immanuel Trummer_.
+- **Q-Data 2026** Quantum Annealing for Multiobjective Query Optimization. _Immanuel Trummer_.
 - **Data Engineering Bulletin 2026** Optimal Block Nested Loops Implementations for Semantic Joins. _Immanuel Trummer_.
 - **SIGMOD 2026** Large-Scale Multiple Query Optimisation with Incremental Quantum(-Inspired) Annealing. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.
 - **SIGMOD 2026** SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads. _Jiale Lao, Immanuel Trummer_.
