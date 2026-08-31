@@ -14,6 +14,9 @@
 
 ### 2026
 
+- **Data Engineering Bulletin 2026** Towards Token-Efficient Query Languages for Data Agents. _Immanuel Trummer_.
+- **Data Engineering Bulletin 2026** ThalamusDB: Semantic Approximate Query Processing. _Immanuel Trummer_.
+- **QC-DKM 2026** Towards Caching Strategies for Quantum Simulators. _Immanuel Trummer_.
 - **Q-Data 2026** Leveraging Quantum Annealing for Materialized View Selection. _Immanuel Trummer_.
 - **Q-Data 2026** Quantum Annealing for Multiobjective Query Optimization. _Immanuel Trummer_.
 - **Data Engineering Bulletin 2026** Optimal Block Nested Loops Implementations for Semantic Joins. _Immanuel Trummer_.
