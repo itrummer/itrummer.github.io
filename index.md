@@ -24,6 +24,7 @@
 - **SIGMOD 2026** SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads. _Jiale Lao, Immanuel Trummer_.
 - **VLDB 2026** Hybrid Mixed Integer Linear Programming for Large-Scale Join Order Optimisation. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.
 - **VLDB 2026** SemBench: A Benchmark for Semantic Query Processing Engines. _Jiale Lao, Andreas Zimmerer, Olga Ovcharenko, Tianji Cong, Matthew Russo, Gerardo Vitagliano, Michael Cochez, Fatma Özcan, Gautam Gupta, Thibaud Hottelier, H. V. Jagadish, Kris Kissel, Sebastian Schelter, Andreas Kipf, Immanuel Trummer_.
+- **AIDB 2026** Breaking Database Lock-in: Agentic Regeneration of High-Performance Storage Readers for Database Bypass. _Victor Giannakouris, Immanuel Trummer_.
 
 ### 2025
 
