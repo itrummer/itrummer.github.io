@@ -1,0 +1,1 @@
+This line of work treats natural-language predicates and semantic operators as first-class citizens in query optimizers and execution engines—from multi-modal approximate processing to cost-efficient claim verification.

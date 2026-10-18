@@ -1,0 +1,1 @@
+Quantum and quantum-inspired hardware offers new options for join ordering, partitioning, and simulation-heavy workloads. We connect database optimization problems to practical annealing and hybrid solvers.

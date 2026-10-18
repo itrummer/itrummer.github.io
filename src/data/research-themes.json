@@ -1,0 +1,170 @@
+{
+  "themes": [
+    {
+      "slug": "semantic-query-processing",
+      "title": "Semantic query processing",
+      "summary": "Systems and optimizers for SQL over natural-language predicates, semantic joins, and approximate query processing.",
+      "status": "active",
+      "citekeys": [
+        "Jo2024a",
+        "Trummer2026thalamusdb",
+        "Trummer2026joins",
+        "Lao2026",
+        "Jayasekara2026",
+        "CEDAR",
+        "Jayasekara2025"
+      ],
+      "systems": [],
+      "talks": []
+    },
+    {
+      "slug": "llm-code-data-processing",
+      "title": "LLM-generated code for data processing",
+      "summary": "Generating customized query plans, operators, and Python pipelines with large language models.",
+      "status": "active",
+      "citekeys": [
+        "Trummer2022a",
+        "Trummer2022c",
+        "Trummer2023b",
+        "Trummer2025a",
+        "Trummer2025",
+        "SQLBarberFullPaper",
+        "Lao2025",
+        "Lao2026gendb",
+        "SwellDBdemo",
+        "Giannakouris2025"
+      ],
+      "systems": [
+        { "name": "CodexDB", "url": "https://itrummer.github.io/CodexDB/" },
+        { "name": "NaturalMiner", "url": "https://github.com/itrummer/NaturalMiner" },
+        { "name": "GenesisDB / GenDB", "url": "https://drive.google.com/file/d/1n9kFvWSTD2jJZwsWwMNLTZd-tcJ8Zodi/view?usp=share_link" }
+      ],
+      "talks": []
+    },
+    {
+      "slug": "llm-database-tuning",
+      "title": "LLMs for database tuning",
+      "summary": "Reading manuals and workload context to recommend configurations, physical design, and performance debugging.",
+      "status": "active",
+      "citekeys": [
+        "Trummer2023e",
+        "Trummer2022",
+        "Trummer2021d",
+        "Trummer2021nlp",
+        "Giannakouris2025",
+        "Giannakouris2024",
+        "Giannakouris2024a"
+      ],
+      "systems": [
+        { "name": "DB-BERT", "url": "https://itrummer.github.io/dbbert/" },
+        { "name": "UDO", "url": "https://cornelldbgroup.github.io/UDO/" }
+      ],
+      "talks": [
+        {
+          "title": "λ-Tune talk (SIGMOD 2025)",
+          "url": "/SIGMOD2025/LambdaTuneTalk.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "quantum-databases",
+      "title": "Quantum computing and database systems",
+      "summary": "Quantum and quantum-inspired optimization for query processing, partitioning, and simulation.",
+      "status": "active",
+      "citekeys": [
+        "Schoenberger2023",
+        "Schoenberger2023a",
+        "Schoenberger2026",
+        "HybridMILPQueryOptimization",
+        "MQObyDigitalAnnealing",
+        "QCforPartitioning",
+        "QOforQC",
+        "Trummer2026materialized",
+        "Trummer2026moqo",
+        "Trummer2026caching",
+        "Sabek",
+        "Sabek2025"
+      ],
+      "systems": [],
+      "talks": [
+        {
+          "title": "Query optimization for quantum computing",
+          "url": "/SIGMOD2025/QueryOptimizationForQuantumComputing.pdf"
+        },
+        {
+          "title": "Quantum annealing for data partitioning",
+          "url": "/SIGMOD2025/QuantumAnnealingForDataPartitioning.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "rl-database-optimization",
+      "title": "Reinforcement learning for database optimization",
+      "summary": "Adaptive query processing, join ordering, and holistic database optimization via reinforcement learning.",
+      "status": "active",
+      "citekeys": [
+        "skinnerDB",
+        "Trummer2021c",
+        "Trummer2018",
+        "Wang2023",
+        "Wang2023a",
+        "Wang2021",
+        "Wang2021b",
+        "Wang2024",
+        "Wei2022",
+        "Wei2024",
+        "Jo2023a"
+      ],
+      "systems": [
+        { "name": "SkinnerDB", "url": "https://cornelldbgroup.github.io/skinnerdb/" }
+      ],
+      "talks": []
+    },
+    {
+      "slug": "data-driven-fact-checking",
+      "title": "Data-driven fact checking",
+      "summary": "Verifying natural-language claims against relational and web data at scale.",
+      "status": "active",
+      "citekeys": [
+        "Karagiannis2020",
+        "Karagiannis2020a",
+        "Karagiannis2020e",
+        "Karagiannis2020d",
+        "Jo2019",
+        "Jo2018a",
+        "CEDAR",
+        "Jayasekara2025",
+        "Trummer2021h"
+      ],
+      "systems": [
+        { "name": "Scrutinizer", "url": "https://coronacheck.eurecom.fr/en" }
+      ],
+      "talks": [
+        {
+          "title": "CEDAR poster (SIGMOD 2025)",
+          "url": "/SIGMOD2025/CEDARPoster.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "voice-query-interfaces",
+      "title": "Voice query interfaces",
+      "summary": "Voice-based OLAP, result vocalization, and robust querying over speech input.",
+      "status": "historical",
+      "citekeys": [
+        "Trummer2017",
+        "Trummer2017b",
+        "Trummer2018a",
+        "Trummer2019a",
+        "Wei2021a",
+        "Wei2021muveDemo",
+        "TrummerICDE21",
+        "Trummer2020"
+      ],
+      "systems": [
+        { "name": "CiceroDB", "url": "https://itrummer.github.io/databyvoice/" }
+      ],
+      "talks": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PublicationList from '../../components/PublicationList.astro';
+import ProseMarkdown from '../../components/ProseMarkdown.astro';
+import { getAllThemeSlugs, getThemeBySlug } from '../../data/research-themes';
+
+export function getStaticPaths() {
+  return getAllThemeSlugs().map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const theme = getThemeBySlug(slug!);
+
+if (!theme) {
+  return Astro.redirect('/');
+}
+
+const themeBodies = import.meta.glob<string>('../../content/research/*.md', {
+  eager: true,
+  query: '?raw',
+  import: 'default',
+});
+
+const bodyKey = `../../content/research/${slug}.md`;
+const bodyMd = themeBodies[bodyKey] ?? '';
+---
+<BaseLayout title={theme.title} description={theme.summary}>
+  <article class="section">
+    <div class="container">
+      <a class="back-link" href="/#research">← Research themes</a>
+      <header class="theme-page-header">
+        <h1>{theme.title}</h1>
+        {theme.status === 'historical' && <span class="theme-status">Past research</span>}
+        <p>{theme.summary}</p>
+      </header>
+      {bodyMd && <ProseMarkdown source={bodyMd} />}
+      {theme.systems.length > 0 && (
+        <>
+          <h2>Systems</h2>
+          <ul class="system-list">
+            {theme.systems.map((s) => (
+              <li>
+                <a href={s.url} rel="noopener noreferrer">{s.name}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      {theme.talks.length > 0 && (
+        <>
+          <h2>Talks &amp; posters</h2>
+          <ul class="talk-list">
+            {theme.talks.map((t) => (
+              <li>
+                <a href={t.url}>{t.title}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      <h2>Related publications</h2>
+      <PublicationList citekeys={theme.citekeys} />
+    </div>
+  </article>
+</BaseLayout>

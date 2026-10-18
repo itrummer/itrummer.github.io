@@ -1,0 +1,14 @@
+---
+import type { ResearchTheme } from '../data/research-themes';
+
+interface Props {
+  theme: ResearchTheme;
+}
+const { theme } = Astro.props;
+const href = `/research/${theme.slug}/`;
+---
+<a class="theme-card" href={href}>
+  {theme.status === 'historical' && <span class="theme-label">Past research</span>}
+  <h3>{theme.title}</h3>
+  <p>{theme.summary}</p>
+</a>

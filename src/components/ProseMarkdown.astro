@@ -1,0 +1,11 @@
+---
+import { marked } from 'marked';
+
+interface Props {
+  source: string;
+}
+const { source } = Astro.props;
+marked.setOptions({ gfm: true, breaks: false });
+const html = marked.parse(source) as string;
+---
+<div class="prose-section" set:html={html} />

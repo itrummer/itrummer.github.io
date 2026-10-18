@@ -1,0 +1,76 @@
+---
+import { getPublications, groupByYear, formatAuthors, type Publication } from '../lib/publications';
+import AwardBadge from './AwardBadge.astro';
+
+interface Props {
+  citekeys?: string[];
+  collapseBeforeYear?: number;
+  listId?: string;
+}
+
+const { citekeys, collapseBeforeYear, listId = 'pub-list' } = Astro.props;
+
+const filterSet = citekeys ? new Set(citekeys) : undefined;
+const publications = getPublications(filterSet);
+const groups = groupByYear(publications);
+const currentYear = new Date().getFullYear();
+const collapseYear = collapseBeforeYear ?? currentYear - 1;
+---
+
+<div class="publication-list" id={listId} data-collapse-before={collapseBeforeYear ?? ''}>
+  {
+    groups.map(({ year, publications: pubs }) => {
+      const isCollapsed =
+        collapseBeforeYear !== undefined && year > 0 && year < collapseYear;
+      return (
+        <div
+          class:list={['pub-year-group', isCollapsed && 'pub-collapse-hidden']}
+          data-year={year}
+        >
+          <h3 class="pub-year">{year || 'Unknown'}</h3>
+          {pubs.map((p) => (
+            <article class="pub-item">
+              <div>
+                <span class="pub-venue">{p.venue}</span>
+                {' '}
+                <span class="pub-title">
+                  {p.url ? (
+                    <a href={p.url}>{p.title}</a>
+                  ) : (
+                    p.title
+                  )}
+                </span>
+                {p.note && <AwardBadge note={p.note} />}
+              </div>
+              <div class="pub-authors">{formatAuthors(p.authors)}</div>
+            </article>
+          ))}
+        </div>
+      );
+    })
+  }
+</div>
+
+{
+  collapseBeforeYear !== undefined && groups.some((g) => g.year > 0 && g.year < collapseYear) && (
+    <>
+      <button type="button" class="btn-text pub-toggle" data-target={listId} data-more="Show all publications" data-less="Show fewer">
+        Show all publications
+      </button>
+      <script>
+        document.querySelectorAll('.pub-toggle').forEach((btn) => {
+          const el = btn as HTMLButtonElement;
+          const targetId = el.dataset.target;
+          const list = targetId ? document.getElementById(targetId) : null;
+          if (!list) return;
+          el.addEventListener('click', () => {
+            const expanded = list.classList.toggle('pub-list-expanded');
+            el.textContent = expanded
+              ? el.dataset.less || 'Show fewer'
+              : el.dataset.more || 'Show all publications';
+          });
+        });
+      </script>
+    </>
+  )
+}

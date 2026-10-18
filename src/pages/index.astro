@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import ThemeCard from '../components/ThemeCard.astro';
+import PublicationList from '../components/PublicationList.astro';
+import ProseMarkdown from '../components/ProseMarkdown.astro';
+import { researchThemes } from '../data/research-themes';
+import fundingMd from '../content/pages/funding.md?raw';
+import studentsMd from '../content/pages/students.md?raw';
+import teachingMd from '../content/pages/teaching.md?raw';
+
+const currentYear = new Date().getFullYear();
+const collapseBeforeYear = currentYear - 1;
+---
+<BaseLayout>
+  <Hero />
+  <section id="research" class="section">
+    <div class="container">
+      <h2>Research</h2>
+      <div class="theme-grid">
+        {researchThemes.map((theme) => (
+          <ThemeCard theme={theme} />
+        ))}
+      </div>
+    </div>
+  </section>
+  <section id="publications" class="section">
+    <div class="container">
+      <h2>Publications</h2>
+      <PublicationList collapseBeforeYear={collapseBeforeYear} listId="home-pub-list" />
+    </div>
+  </section>
+  <section id="funding" class="section">
+    <div class="container">
+      <h2>Funding</h2>
+      <ProseMarkdown source={fundingMd} />
+    </div>
+  </section>
+  <section id="students" class="section">
+    <div class="container">
+      <h2>Students</h2>
+      <ProseMarkdown source={studentsMd} />
+    </div>
+  </section>
+  <section id="teaching" class="section">
+    <div class="container">
+      <h2>Teaching</h2>
+      <ProseMarkdown source={teachingMd} />
+    </div>
+  </section>
+</BaseLayout>

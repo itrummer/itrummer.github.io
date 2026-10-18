@@ -1,0 +1,44 @@
+---
+import { site } from '../data/site';
+import { navItems } from '../data/nav';
+---
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/#about">{site.name}</a>
+    <nav aria-label="Primary">
+      <ul class="nav-desktop">
+        {navItems.map((item) => (
+          <li>
+            <a href={item.href}>{item.label}</a>
+          </li>
+        ))}
+      </ul>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-mobile">
+        Menu
+      </button>
+    </nav>
+  </div>
+  <div class="container">
+    <ul class="nav-mobile" id="nav-mobile">
+      {navItems.map((item) => (
+        <li>
+          <a href={item.href}>{item.label}</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</header>
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const mobile = document.getElementById('nav-mobile');
+  toggle?.addEventListener('click', () => {
+    const open = mobile?.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  mobile?.querySelectorAll('a').forEach((a) => {
+    a.addEventListener('click', () => {
+      mobile.classList.remove('is-open');
+      toggle?.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
