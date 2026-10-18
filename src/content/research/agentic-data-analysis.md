@@ -1,0 +1,5 @@
+We are currently witnessing a shift from humans to agents analyzing data. Instead of issuing queries via text or visual interfaces, humans delegate data analysis to agents, performing analysis tasks specified by users at a high level of abstraction.
+
+In this context, we are working on two related topics. Creating agentic frameworks for data analysis, and creating a new generation of data analysis systems that are designed from the ground up for agents as the primary ``users''.
+
+For instance, our prior work covers systems like NaturalMiner that map high-level task specifications to a sequence of queries, determining the next query to issue after analyzing prior query results. More recently, we have worked on designing database systems that reduce the amount of token read by an agent, for instance, by describin database schemata concisely, or supporting SQL dialects optimized for token-efficiency.

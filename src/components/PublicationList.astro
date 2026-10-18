@@ -15,6 +15,10 @@ const publications = getPublications(filterSet);
 const groups = groupByYear(publications);
 const currentYear = new Date().getFullYear();
 const collapseYear = collapseBeforeYear ?? currentYear - 1;
+
+function authorSeparator(title: string): string {
+  return /[.?!…]\s*$/.test(title.trim()) ? ' ' : '. ';
+}
 ---
 
 <div class="publication-list" id={listId} data-collapse-before={collapseBeforeYear ?? ''}>
@@ -27,12 +31,17 @@ const collapseYear = collapseBeforeYear ?? currentYear - 1;
           class:list={['pub-year-group', isCollapsed && 'pub-collapse-hidden']}
           data-year={year}
         >
-          <h3 class="pub-year">{year || 'Unknown'}</h3>
+          <div class="pub-year-row">
+            <h3 class="pub-year">{year || 'Unknown'}</h3>
+          </div>
           {pubs.map((p) => (
             <article class="pub-item">
-              <div>
-                <span class="pub-venue">{p.venue}</span>
-                {' '}
+              <p class="pub-line">
+                {p.venue ? (
+                  <>
+                    <span class="pub-venue">{p.venue}</span>{' '}
+                  </>
+                ) : null}
                 <span class="pub-title">
                   {p.url ? (
                     <a href={p.url}>{p.title}</a>
@@ -40,9 +49,14 @@ const collapseYear = collapseBeforeYear ?? currentYear - 1;
                     p.title
                   )}
                 </span>
-                {p.note && <AwardBadge note={p.note} />}
-              </div>
-              <div class="pub-authors">{formatAuthors(p.authors)}</div>
+                {p.authors ? (
+                  <>
+                    {authorSeparator(p.title)}
+                    <span class="pub-authors">{formatAuthors(p.authors)}</span>
+                  </>
+                ) : null}
+                {p.note ? <AwardBadge note={p.note} /> : null}
+              </p>
             </article>
           ))}
         </div>

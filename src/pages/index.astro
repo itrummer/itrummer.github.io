@@ -11,17 +11,53 @@ import teachingMd from '../content/pages/teaching.md?raw';
 
 const currentYear = new Date().getFullYear();
 const collapseBeforeYear = currentYear - 1;
+const initialThemeCount = 5;
+const hasMoreThemes = researchThemes.length > initialThemeCount;
 ---
 <BaseLayout>
   <Hero />
   <section id="research" class="section">
     <div class="container">
       <h2>Research</h2>
-      <div class="theme-grid">
-        {researchThemes.map((theme) => (
-          <ThemeCard theme={theme} />
+      <div class="theme-grid" id="theme-grid">
+        {researchThemes.map((theme, index) => (
+          <div
+            class:list={[
+              'theme-card-wrap',
+              index >= initialThemeCount && 'theme-collapse-hidden',
+            ]}
+          >
+            <ThemeCard theme={theme} />
+          </div>
         ))}
+        {hasMoreThemes && (
+          <button
+            type="button"
+            class="theme-grid-toggle btn-text"
+            data-target="theme-grid"
+            data-more="Show all research areas"
+            data-less="Show fewer"
+          >
+            Show all research areas
+          </button>
+        )}
       </div>
+      {hasMoreThemes && (
+        <script>
+          document.querySelectorAll('.theme-grid-toggle').forEach((btn) => {
+            const el = btn as HTMLButtonElement;
+            const targetId = el.dataset.target;
+            const grid = targetId ? document.getElementById(targetId) : null;
+            if (!grid) return;
+            el.addEventListener('click', () => {
+              const expanded = grid.classList.toggle('theme-grid-expanded');
+              el.textContent = expanded
+                ? el.dataset.less || 'Show fewer'
+                : el.dataset.more || 'Show all research areas';
+            });
+          });
+        </script>
+      )}
     </div>
   </section>
   <section id="publications" class="section">

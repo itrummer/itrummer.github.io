@@ -1,0 +1,38 @@
+---
+interface Props {
+  youtubeId: string;
+  title?: string;
+  startSeconds?: number;
+  endSeconds?: number;
+}
+
+const { youtubeId, title, startSeconds, endSeconds } = Astro.props;
+const embedTitle = title ?? 'Featured talk video';
+
+const embedParams = new URLSearchParams();
+if (startSeconds != null && startSeconds > 0) {
+  embedParams.set('start', String(Math.floor(startSeconds)));
+}
+if (endSeconds != null && endSeconds > 0) {
+  embedParams.set('end', String(Math.floor(endSeconds)));
+}
+const embedQuery = embedParams.toString();
+const embedSrc = `https://www.youtube-nocookie.com/embed/${youtubeId}${embedQuery ? `?${embedQuery}` : ''}`;
+---
+
+<figure class="featured-talk-video">
+  <div class="featured-talk-video__frame">
+    <iframe
+      src={embedSrc}
+      title={embedTitle}
+      loading="lazy"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+  {
+    title ? (
+      <figcaption class="featured-talk-video__caption">{title}</figcaption>
+    ) : null
+  }
+</figure>

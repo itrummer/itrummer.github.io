@@ -3,80 +3,107 @@
     {
       "slug": "semantic-query-processing",
       "title": "Semantic query processing",
-      "summary": "Systems and optimizers for SQL over natural-language predicates, semantic joins, and approximate query processing.",
+      "summary": "Making SQL with AI operators on multimodal tables fast and cost-efficient.",
       "status": "active",
       "citekeys": [
         "Jo2024a",
+        "Jo2023a",
         "Trummer2026thalamusdb",
         "Trummer2026joins",
         "Lao2026",
         "Jayasekara2026",
-        "CEDAR",
-        "Jayasekara2025"
+        "Jo2025"
       ],
-      "systems": [],
+      "systems": [
+        { "name": "SpareLLM", "url": "https://github.com/saehanjo/spare-llm" },
+        { "name": "thalamusDB", "url": "https://github.com/itrummer/thalamusdb" }
+      ],
+      "featuredVideo": {
+        "youtubeId": "N95Ja2jlMEw",
+        "title": "SpareLLM talk (SIGMOD 2025)"
+      },
       "talks": []
     },
     {
       "slug": "llm-code-data-processing",
       "title": "LLM-generated code for data processing",
-      "summary": "Generating customized query plans, operators, and Python pipelines with large language models.",
+      "summary": "Using LLMs to synthesize code for data processing, substituting database system components.",
       "status": "active",
       "citekeys": [
         "Trummer2022a",
-        "Trummer2022c",
-        "Trummer2023b",
         "Trummer2025a",
         "Trummer2025",
-        "SQLBarberFullPaper",
-        "Lao2025",
         "Lao2026gendb",
-        "SwellDBdemo",
-        "Giannakouris2025"
+        "Giannakouris2026",
+        "Trummer2023b"
       ],
       "systems": [
         { "name": "CodexDB", "url": "https://itrummer.github.io/CodexDB/" },
-        { "name": "NaturalMiner", "url": "https://github.com/itrummer/NaturalMiner" },
-        { "name": "GenesisDB / GenDB", "url": "https://drive.google.com/file/d/1n9kFvWSTD2jJZwsWwMNLTZd-tcJ8Zodi/view?usp=share_link" }
+        { "name": "GenesisDB", "url": "https://github.com/itrummer/dbz" },
+        { "name": "Jailbreak", "url": "https://github.com/gsvic/Jailbreak" },
+        { "name": "GenDB", "url": "https://solidlao.github.io/GenDB/" }
       ],
       "talks": []
     },
     {
       "slug": "llm-database-tuning",
       "title": "LLMs for database tuning",
-      "summary": "Reading manuals and workload context to recommend configurations, physical design, and performance debugging.",
+      "summary": "Using LLMs for database tuning, physical design, and query optimization.",
       "status": "active",
       "citekeys": [
         "Trummer2023e",
         "Trummer2022",
         "Trummer2021d",
         "Trummer2021nlp",
+        "Trummer2023d",
         "Giannakouris2025",
         "Giannakouris2024",
-        "Giannakouris2024a"
+        "Giannakouris2024a",
+        "SQLBarberFullPaper",
+        "Lao2025"
       ],
       "systems": [
         { "name": "DB-BERT", "url": "https://itrummer.github.io/dbbert/" },
-        { "name": "UDO", "url": "https://cornelldbgroup.github.io/UDO/" }
+        { "name": "λ-Tune", "url": "https://github.com/gsvic/lambda-tune"},
+        { "name": "SQLBarber", "url": "https://github.com/SolidLao/SQLBarber"},
+        { "name": "NEAT", "url": "https://github.com/itrummer/DataCorrelationPredictionWithNLP"}
       ],
-      "talks": [
-        {
-          "title": "λ-Tune talk (SIGMOD 2025)",
-          "url": "/SIGMOD2025/LambdaTuneTalk.pdf"
-        }
-      ]
+      "featuredVideo": {
+        "youtubeId": "WlNLr-3NZBk",
+        "startSeconds": 392
+      },
+      "talks": []
+    },
+    {
+      "slug": "agentic-data-analysis",
+      "title": "Agentic data analysis",
+      "summary": "From human database users to computational agents that analyze data.",
+      "status": "active",
+      "citekeys": [
+        "Trummer2022c",
+        "Trummer2024c",
+        "Trummer2026tokens",
+        "Trummer2023"
+      ],
+      "systems": [
+        { "name": "Schemonic", "url": "https://github.com/itrummer/schemacompression" },
+        { "name": "NaturalMiner", "url": "https://github.com/itrummer/NaturalMiner" }
+      ],
+      "talks": []
     },
     {
       "slug": "quantum-databases",
       "title": "Quantum computing and database systems",
-      "summary": "Quantum and quantum-inspired optimization for query processing, partitioning, and simulation.",
+      "summary": "Quantum and quantum-inspired hardware accelerators for database optimization, database techniques for quantum simulation.",
       "status": "active",
       "citekeys": [
+        "Trummer2016quantum",
         "Schoenberger2023",
         "Schoenberger2023a",
         "Schoenberger2026",
         "HybridMILPQueryOptimization",
-        "MQObyDigitalAnnealing",
+        "Trummer2024",
+        "Trummer2024a",
         "QCforPartitioning",
         "QOforQC",
         "Trummer2026materialized",
@@ -86,16 +113,10 @@
         "Sabek2025"
       ],
       "systems": [],
-      "talks": [
-        {
-          "title": "Query optimization for quantum computing",
-          "url": "/SIGMOD2025/QueryOptimizationForQuantumComputing.pdf"
-        },
-        {
-          "title": "Quantum annealing for data partitioning",
-          "url": "/SIGMOD2025/QuantumAnnealingForDataPartitioning.pdf"
-        }
-      ]
+      "featuredVideo": {
+        "youtubeId": "XgL7EJEppk4"
+      },
+      "talks": []
     },
     {
       "slug": "rl-database-optimization",
@@ -105,19 +126,23 @@
       "citekeys": [
         "skinnerDB",
         "Trummer2021c",
-        "Trummer2018",
         "Wang2023",
         "Wang2023a",
         "Wang2021",
         "Wang2021b",
+        "Wang2021e",
         "Wang2024",
-        "Wei2022",
-        "Wei2024",
-        "Jo2023a"
+        "Wei2022"
       ],
       "systems": [
+        { "name": "ADOPT", "url": "https://github.com/jxiw/ADOPT" },
+        { "name": "UDO", "url": "https://github.com/jxiw/UDO" },
+        { "name": "SkinnerMT", "url": "https://github.com/cornelldbgroup/skinnerdb/tree/skinnermt" },
         { "name": "SkinnerDB", "url": "https://cornelldbgroup.github.io/skinnerdb/" }
       ],
+      "featuredVideo": {
+        "youtubeId": "VvYSaodEdrM"
+      },
       "talks": []
     },
     {
@@ -137,7 +162,7 @@
         "Trummer2021h"
       ],
       "systems": [
-        { "name": "Scrutinizer", "url": "https://coronacheck.eurecom.fr/en" }
+        { "name": "CEDAR", "url": "https://github.com/TharushiJay/CEDAR-demo" }
       ],
       "talks": [
         {
@@ -149,11 +174,11 @@
     {
       "slug": "voice-query-interfaces",
       "title": "Voice query interfaces",
-      "summary": "Voice-based OLAP, result vocalization, and robust querying over speech input.",
-      "status": "historical",
+      "summary": "Voice-based OLAP, result vocalization, and robust querying via speech input.",
+      "status": "active",
       "citekeys": [
         "Trummer2017",
-        "Trummer2017b",
+        "Trummer2018",
         "Trummer2018a",
         "Trummer2019a",
         "Wei2021a",
@@ -164,6 +189,10 @@
       "systems": [
         { "name": "CiceroDB", "url": "https://itrummer.github.io/databyvoice/" }
       ],
+      "featuredVideo" :{
+        "youtubeId": "hxH-hLociM4",
+        "title": "CiceroDB talk (ICDE 2021)"
+      },
       "talks": []
     }
   ]

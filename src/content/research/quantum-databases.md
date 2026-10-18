@@ -1,1 +1,5 @@
-Quantum and quantum-inspired hardware offers new options for join ordering, partitioning, and simulation-heavy workloads. We connect database optimization problems to practical annealing and hybrid solvers.
+Quantum computing has transformed from a purely theoretical concept into a technology that is widely available and improving quickly. Several manufacturers, including IBM and Google, are manufacturing corresponding hardware, and customers can rent computation time on early-stage quantum computers via Cloud offerings such as Amazon Braket.
+
+We are exploring two complementary research directions connecting database systems on quantum computing. First, we leverage hardware accelerators based on quantum computing or related technologies for hard database optimization problems. This includes work on problems such as multiple query optimization, join ordering, data partitioning, and index selection, using hardware such as Fujitsu's digital annealer, and D-Wave's quantum annealer. 
+
+Second, we explore ways to apply ideas from the database community in the context of quantum computing. For instance, we are exploring ways to make quantum simulation more efficient on classical machines, exploiting techniques such as query optimization and caching.

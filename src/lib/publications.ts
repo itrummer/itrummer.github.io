@@ -15,6 +15,31 @@ export type Publication = {
 
 const allowlist = new Set(allowlistKeys as string[]);
 
+/** Expand common BibTeX accent escapes for HTML display (UTF-8 in .bib is unchanged). */
+export function normalizeBibTeXText(text: string): string {
+  if (!text) return text;
+  let s = text;
+
+  const diaeresis: Record<string, string> = {
+    a: 'ä',
+    A: 'Ä',
+    o: 'ö',
+    O: 'Ö',
+    u: 'ü',
+    U: 'Ü',
+  };
+
+  // Braced forms, e.g. {\"o} or {\\"o}
+  s = s.replace(/\{\\?\\?"([aouAOU])\}/g, (_, c: string) => diaeresis[c] ?? c);
+  // Unbraced after parse, e.g. Sch\"onberger
+  s = s.replace(/\\"([aouAOU])/g, (_, c: string) => diaeresis[c] ?? c);
+
+  s = s.replace(/\{\\?ss\}/gi, 'ß');
+  s = s.replace(/\\ss\b/gi, 'ß');
+
+  return s;
+}
+
 function parseYear(raw: string | undefined): number {
   if (!raw) return 0;
   const n = parseInt(raw, 10);
@@ -32,11 +57,11 @@ function parseAll(): Publication[] {
     pubs.push({
       key: e.key,
       type: (e.type || '').toLowerCase(),
-      title: (e.TITLE || '').trim(),
-      authors: (e.AUTHOR || '').trim(),
+      title: normalizeBibTeXText((e.TITLE || '').trim()),
+      authors: normalizeBibTeXText((e.AUTHOR || '').trim()),
       year: parseYear(e.YEAR),
-      venue,
-      note: e.NOTE?.trim(),
+      venue: normalizeBibTeXText(venue),
+      note: e.NOTE ? normalizeBibTeXText(e.NOTE.trim()) : undefined,
       url: url.startsWith('http') ? url : url ? `https://doi.org/${url}` : undefined,
     });
   }

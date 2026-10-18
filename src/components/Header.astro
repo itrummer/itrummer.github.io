@@ -3,9 +3,11 @@ import { site } from '../data/site';
 import { navItems } from '../data/nav';
 ---
 <header class="site-header">
-  <div class="container">
-    <a class="brand" href="/#about">{site.name}</a>
-    <nav aria-label="Primary">
+  <div class="container header-bar">
+    <div class="header-brand-zone">
+      <a class="brand" href="/#about">{site.name}</a>
+    </div>
+    <nav class="header-nav" aria-label="Primary">
       <ul class="nav-desktop">
         {navItems.map((item) => (
           <li>
@@ -17,6 +19,7 @@ import { navItems } from '../data/nav';
         Menu
       </button>
     </nav>
+    <div class="header-end" aria-hidden="true"></div>
   </div>
   <div class="container">
     <ul class="nav-mobile" id="nav-mobile">

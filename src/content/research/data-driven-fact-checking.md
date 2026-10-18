@@ -1,1 +1,5 @@
-We build systems that map claims in text to SQL over structured data, mine counter-evidence from web updates, and optimize verification cost under user accuracy targets.
+In February 2024, Lyft accidentally added a zero to its profit margin projection. This mistake shortly sent the stock soaring by up to 67% in after-hours trading. Lawsuits and an apology by Lyft's CEO followed, making it clear that incorrect claims in business reports can have serious consequences.
+
+This and other cases motivate our research on data-driven fact-checking. Given a text document containing claims that can be verified from structured data, our systems automatically translate text claims into structured SQL queries and verify claims by comparing claimed values to query results. 
+
+On first view, this prpblem seems to resemble the well known problem of question-to-SQL translation. However, data-driven fact checking differs by the presence of claimed values. Our work makes use of this difference in various ways, for instance by escalating from cheap to more expensive LLMs if the discrepancy between claimed value and query result is deemed too unlikely. Besides systems for automated fact checking, we have also analyzed Wikipedia logs to create models of how users make mistakes on the web.

@@ -52,5 +52,5 @@ Edit [`src/content/pages/teaching.md`](src/content/pages/teaching.md), [`funding
 ### Static assets
 
 - CV: [`public/CV.pdf`](public/CV.pdf)
-- Photo: [`public/img/itrummer.jpeg`](public/img/itrummer.jpeg)
+- Photo: [`public/img/itrummer.png`](public/img/itrummer.png) (hero; same as former Jekyll `_includes/itrummer.png`)
 - Conference slides/posters (stable URLs): [`public/SIGMOD2025/`](public/SIGMOD2025/) — keep filenames unchanged when replacing files so old links keep working.

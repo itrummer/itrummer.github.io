@@ -1,1 +1,1 @@
-I make data analysis more efficient and more user-friendly. My research spans database systems, large language models, and automated tuning.
+Immanuel Trummer is an associate professor of computer science at Cornell University. His research makes data analysis more efficient and more user-friendly, in particular by the use of large language models. He received the NSF CAREER grant, and several "Best of VLDB" and "Best of SIGMOD" awards. He is also the author of the book "Data Analysis with LLMs", now available in five languages. 

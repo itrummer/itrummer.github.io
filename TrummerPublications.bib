@@ -532,7 +532,7 @@
    year = {2020}
 }
 @inproceedings{Schoenberger2023a,
-   author = {Manuel Schoenberger and Immanuel Trummer and Wolfgang Mauerer},
+   author = {Manuel Schönberger and Immanuel Trummer and Wolfgang Mauerer},
    booktitle = {QDSM},
    pages = {1-12},
    title = {Quantum Optimisation of General Join Trees},
@@ -562,7 +562,7 @@
    year = {2021}
 }
 @article{Schoenberger2023,
-   author = {Manuel Schoenberger and Immanuel Trummer and Wolfgang Mauerer},
+   author = {Manuel Schönberger and Immanuel Trummer and Wolfgang Mauerer},
    doi = {10.14778/3632093.3632112},
    issue = {3},
    journal = {PVLDB},
@@ -626,8 +626,9 @@
    year = {2025}
 }
 @article{Schoenberger2026,
-   author = {Manuel Schoenberger and Immanuel Trummer and Wolfgang Mauerer},
-   doi = {https://doi.org/10.1145/3749171},
+   abstract = {Multiple-query optimization (MQO) seeks to reduce redundant work across query batches. While MQO offers opportunities for dramatic performance improvements, the problem is NP-hard, limiting the sizes of problems that can be solved on generic hardware. We propose to leverage specialized hardware solvers for optimization, such as Fujitsu's Digital Annealer (DA), to scale up MQO to problem sizes formerly out of reach.},
+   author = {Manuel Schönberger and Immanuel Trummer and Wolfgang Mauerer},
+   doi = {10.1145/3749171},
    issue = {4},
    journal = {SIGMOD},
    pages = {1-25},
@@ -894,20 +895,6 @@
    url = {https://doi.org/10.1109/ICDE60146.2024.00404},
    year = {2024}
 }
-@article{MQObyDigitalAnnealing,
-   abstract = {<p>Multiple-query optimization (MQO) seeks to reduce redundant work across query batches. While MQO offers opportunities for dramatic performance improvements, the problem is NP-hard, limiting the sizes of problems that can be solved on generic hardware. We propose to leverage specialized hardware solvers for optimization, such as Fujitsu's Digital Annealer (DA), to scale up MQO to problem sizes formerly out of reach.</p>},
-   author = {Manuel Schönberger and Immanuel Trummer and Wolfgang Mauerer},
-   doi = {10.1145/3749171},
-   issn = {2836-6573},
-   issue = {4},
-   journal = {Proceedings of the ACM on Management of Data},
-   month = {9},
-   pages = {1-25},
-   title = {Large-Scale Multiple Query Optimisation with Incremental Quantum(-Inspired) Annealing},
-   volume = {3},
-   url = {https://doi.org/10.1145/3749171},
-   year = {2025}
-}
 @article{Trummer2024c,
    abstract = {Using large language models (LLMs) for tasks like text-to-SQL translation often requires describing the database schema as part of the model input. LLM providers typically charge as a function of the number of tokens read. Hence, reducing the length of the schema description saves money at each model invocation. This paper introduces Schemonic, a system that automatically finds concise text descriptions of relational database schemata. By introducing abbreviations or grouping schema elements with similar properties, Schemonic typically finds descriptions that use significantly fewer tokens than naive schema representations.Internally, Schemonic models schema compression as a combinatorial optimization problem and uses integer linear programming solvers to find guaranteed optimal or near-optimal solutions. It speeds up optimization by starting optimization from heuristic solutions and reducing the search space size via pre-processing. The experiments on TPC-H, SPIDER, and Public-BI demonstrate that Schemonic reduces schema description length significantly, along with fees for reading them, without reducing the accuracy in tasks such as text-to-SQL translation.},
    author = {Immanuel Trummer},
@@ -1123,30 +1110,6 @@
    volume = {abs/2304.0},
    url = {http://arxiv.org/abs/2304.09433 https://doi.org/10.48550/arXiv.2304.09433},
    year = {2023}
-}
-@inproceedings{QCforPartitioning,
-   author = {Immanuel Trummer},
-   city = {New York, NY, USA},
-   doi = {10.1145/3736393.3736692},
-   isbn = {9798400719448},
-   booktitle = {Q-Data},
-   pages = {10-17},
-   publisher = {ACM},
-   title = {Leveraging Quantum Computing for Optimal Data Allocation in Distributed Systems},
-   url = {https://doi.org/10.1145/3736393.3736692},
-   year = {2025}
-}
-@inproceedings{QOforQC,
-   author = {Immanuel Trummer},
-   city = {New York, NY, USA},
-   doi = {10.1145/3736393.3736690},
-   isbn = {9798400719448},
-   booktitle = {Q-Data},
-   pages = {1-2},
-   publisher = {ACM},
-   title = {Cost-Based Query Optimization for Quantum Computation},
-   url = {https://doi.org/10.1145/3736393.3736690},
-   year = {2025}
 }
 @article{Lao2026,
    abstract = {We present a benchmark targeting a novel class of systems: semantic query processing engines. Those systems rely inherently on generative and reasoning capabilities of state-of-the-art large language models (LLMs). They extend SQL with semantic operators, configured by natural language instructions, that are evaluated via LLMs and enable users to perform various operations on multimodal data.},

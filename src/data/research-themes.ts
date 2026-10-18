@@ -2,6 +2,14 @@ import themesData from './research-themes.json';
 
 export type SystemLink = { name: string; url: string };
 export type TalkLink = { title: string; url: string };
+export type FeaturedVideo = {
+  youtubeId: string;
+  title?: string;
+  /** YouTube embed start offset in seconds. */
+  startSeconds?: number;
+  /** YouTube embed end time in seconds (optional). */
+  endSeconds?: number;
+};
 
 export type ResearchTheme = {
   slug: string;
@@ -11,6 +19,7 @@ export type ResearchTheme = {
   citekeys: string[];
   systems: SystemLink[];
   talks: TalkLink[];
+  featuredVideo?: FeaturedVideo;
 };
 
 export const researchThemes: ResearchTheme[] = themesData.themes;

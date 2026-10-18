@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import FeaturedTalkVideo from '../../components/FeaturedTalkVideo.astro';
 import PublicationList from '../../components/PublicationList.astro';
 import ProseMarkdown from '../../components/ProseMarkdown.astro';
 import { getAllThemeSlugs, getThemeBySlug } from '../../data/research-themes';
@@ -30,9 +31,16 @@ const bodyMd = themeBodies[bodyKey] ?? '';
       <a class="back-link" href="/#research">← Research themes</a>
       <header class="theme-page-header">
         <h1>{theme.title}</h1>
-        {theme.status === 'historical' && <span class="theme-status">Past research</span>}
         <p>{theme.summary}</p>
       </header>
+      {theme.featuredVideo ? (
+        <FeaturedTalkVideo
+          youtubeId={theme.featuredVideo.youtubeId}
+          title={theme.featuredVideo.title}
+          startSeconds={theme.featuredVideo.startSeconds}
+          endSeconds={theme.featuredVideo.endSeconds}
+        />
+      ) : null}
       {bodyMd && <ProseMarkdown source={bodyMd} />}
       {theme.systems.length > 0 && (
         <>
